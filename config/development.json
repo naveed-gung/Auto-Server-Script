@@ -1,0 +1,41 @@
+{
+  "profile": "development",
+  "domain": "",
+  "ssl_email": "",
+  "components": {
+    "nodejs": {
+      "enabled": true,
+      "version": "20"
+    },
+    "mongodb": {
+      "enabled": true,
+      "version": "7.0",
+      "enable_auth": false,
+      "admin_user": "",
+      "admin_password_env": ""
+    },
+    "nginx": {
+      "enabled": true,
+      "ssl": false,
+      "ssl_provider": ""
+    },
+    "pm2": {
+      "enabled": true,
+      "instances": "1"
+    },
+    "docker": {
+      "enabled": false
+    },
+    "security": {
+      "firewall": false,
+      "fail2ban": false,
+      "auto_updates": false,
+      "ssh_hardening": false
+    }
+  },
+  "notifications": {
+    "slack_webhook": "",
+    "discord_webhook": "",
+    "email": ""
+  }
+}

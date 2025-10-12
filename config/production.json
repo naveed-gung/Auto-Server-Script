@@ -1,0 +1,41 @@
+{
+  "profile": "production",
+  "domain": "example.com",
+  "ssl_email": "admin@example.com",
+  "components": {
+    "nodejs": {
+      "enabled": true,
+      "version": "20"
+    },
+    "mongodb": {
+      "enabled": true,
+      "version": "7.0",
+      "enable_auth": true,
+      "admin_user": "admin",
+      "admin_password_env": "MONGO_PASSWORD"
+    },
+    "nginx": {
+      "enabled": true,
+      "ssl": true,
+      "ssl_provider": "letsencrypt"
+    },
+    "pm2": {
+      "enabled": true,
+      "instances": "max"
+    },
+    "docker": {
+      "enabled": false
+    },
+    "security": {
+      "firewall": true,
+      "fail2ban": true,
+      "auto_updates": true,
+      "ssh_hardening": true
+    }
+  },
+  "notifications": {
+    "slack_webhook": "",
+    "discord_webhook": "",
+    "email": ""
+  }
+}
