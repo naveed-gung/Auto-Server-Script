@@ -11,6 +11,17 @@
 
 **Created by [naveed-gung](https://github.com/naveed-gung)**
 
+<table>
+<tr>
+<td width="50%">
+<img src="assets/image.png" alt="Elite Server Setup Banner" width="100%"/>
+</td>
+<td width="50%">
+<img src="https://github.com/user-attachments/assets/8b8e5b5e-8b3e-4b8e-8b3e-8b3e8b3e8b3e/image.png" alt="Elite Server Setup Preview" width="100%"/>
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
