@@ -875,14 +875,14 @@ Special thanks to the open-source community and the amazing tools that make this
 
 If this project helped you, please ⭐ **star this repository** and share it with others!
 
-[![GitHub stars](https://img.shields.io/github/stars/naveed-gung/elite-server-setup?style=social)](https://github.com/naveed-gung/elite-server-setup)
-[![GitHub forks](https://img.shields.io/github/forks/naveed-gung/elite-server-setup?style=social)](https://github.com/naveed-gung/elite-server-setup/fork)
+[![GitHub stars](https://img.shields.io/github/stars/naveed-gung/Auto-Server-Script?style=social)](https://github.com/naveed-gung/elite-server-setup)
+[![GitHub forks](https://img.shields.io/github/forks/naveed-gung/Auto-Server-Script?style=social)](https://github.com/naveed-gung/elite-server-setup/fork)
 
 ---
 
 **Ready to deploy?** Start with: `sudo ./setup.sh`
 
-**Made with ❤️ by [naveed-gung](https://github.com/naveed-gung)**
+**Made  by [naveed-gung](https://github.com/naveed-gung)**
 
 <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github" width="400"/>
 
