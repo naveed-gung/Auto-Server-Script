@@ -4,7 +4,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.png">
-  <img alt="Elite Auto Server Setup" src="assets/image.png" width="100%">
+  <img alt="Elite Auto Server Setup" src="/assets/image.png" width="100%">
 </picture>
 
 # 🚀 Elite Auto Server Setup
