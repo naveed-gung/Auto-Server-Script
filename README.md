@@ -9,7 +9,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://www.linux.org/)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](https://github.com/naveed-gung/elite-server-setup)
 
-**Created by [naveed-gung](https://github.com/naveed-gung)**
+**Created by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
 <table>
 <tr>
@@ -66,14 +66,14 @@
 
 ### <img src="https://skillicons.dev/icons?i=linux" width="20"/> Technology Stack
 
-| Component | Version | Purpose |
-|-----------|---------|---------|
-| <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> **Node.js** | 20.x LTS | JavaScript runtime (via NodeSource) |
-| <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> **MongoDB** | 7.0+ | NoSQL database (Community Edition) |
-| <img src="https://skillicons.dev/icons?i=nginx" width="16"/> **Nginx** | Latest | Reverse proxy + SSL termination |
-| **PM2** | Latest | Process manager with clustering |
-| <img src="https://skillicons.dev/icons?i=docker" width="16"/> **Docker** | Latest | Container runtime (optional) |
-| **Certbot** | Latest | Let's Encrypt SSL automation |
+| Component                                                                  | Version  | Purpose                             |
+| -------------------------------------------------------------------------- | -------- | ----------------------------------- |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> **Node.js**  | 20.x LTS | JavaScript runtime (via NodeSource) |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> **MongoDB** | 7.0+     | NoSQL database (Community Edition)  |
+| <img src="https://skillicons.dev/icons?i=nginx" width="16"/> **Nginx**     | Latest   | Reverse proxy + SSL termination     |
+| **PM2**                                                                    | Latest   | Process manager with clustering     |
+| <img src="https://skillicons.dev/icons?i=docker" width="16"/> **Docker**   | Latest   | Container runtime (optional)        |
+| **Certbot**                                                                | Latest   | Let's Encrypt SSL automation        |
 
 ### <img src="https://skillicons.dev/icons?i=linux" width="20"/> Security Hardening
 
@@ -186,7 +186,7 @@ Advanced Options:
   --mongodb-pass=PASSWORD    MongoDB admin password (auto-generated if not set)
   --backup-dir=PATH          Backup directory (default: /var/backups/elite-setup)
   --log-level=LEVEL          Logging level (debug|info|warning|error)
-  
+
 Utility Options:
   --dry-run                  Show what would be installed without making changes
   --force                    Force installation even if services exist
@@ -204,6 +204,7 @@ sudo ./setup.sh --profile=development
 ```
 
 **Includes:**
+
 - Node.js 20 + npm
 - MongoDB without authentication
 - Nginx without SSL
@@ -219,6 +220,7 @@ sudo ./setup.sh --profile=production \
 ```
 
 **Includes:**
+
 - Node.js 20 + npm
 - MongoDB with authentication enabled
 - Nginx with Let's Encrypt SSL
@@ -365,7 +367,7 @@ sudo nano /etc/nginx/sites-available/myapp.conf
 ```nginx
 server {
     server_name yourdomain.com www.yourdomain.com;
-    
+
     # Proxy to Node.js app
     location / {
         proxy_pass http://localhost:3000;
@@ -433,7 +435,8 @@ db.createUser({
 
 ```javascript
 // In your Node.js app
-const MONGODB_URI = "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
+const MONGODB_URI =
+  "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
 ```
 
 ---
@@ -532,6 +535,7 @@ sudo systemctl reload nginx
 ```
 
 **Test Coverage:**
+
 - ✅ File structure validation (20+ tests)
 - ✅ Bash syntax checking
 - ✅ JSON configuration validation
@@ -749,6 +753,7 @@ cat /var/log/elite-setup/security-checklist.txt
 ```
 
 **Recommended Actions:**
+
 1. Change default MongoDB admin password
 2. Configure SSH key-based authentication
 3. Set up automatic backups
@@ -825,7 +830,7 @@ copies or substantial portions of the Software.
 
 ## <img src="https://skillicons.dev/icons?i=github" width="24"/> Credits & Acknowledgments
 
-**Created by: [naveed-gung](https://github.com/naveed-gung)**
+**Created by: [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
 <img src="https://skillicons.dev/icons?i=nodejs,mongodb,nginx,docker,react,express,bash,linux,git,github,vscode" width="400"/>
 
@@ -882,7 +887,7 @@ If this project helped you, please ⭐ **star this repository** and share it wit
 
 **Ready to deploy?** Start with: `sudo ./setup.sh`
 
-**Made with ❤️ by [naveed-gung](https://github.com/naveed-gung)**
+**Made with ❤️ by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
 <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github" width="400"/>
 

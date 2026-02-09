@@ -1,14 +1,9 @@
 #!/bin/bash
 
 ################################################################################
-#!/bin/bash
-
-################################################################################
 # Health Check Script
 # Verifies all components are running correctly
 # Author: naveed-gung (https://github.com/naveed-gung)
-################################################################################
-# Author: naveed-gung (github.com/naveed-gung)
 ################################################################################
 
 set -euo pipefail

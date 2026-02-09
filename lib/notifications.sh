@@ -267,8 +267,8 @@ notify_installation_start() {
 notify_installation_complete() {
     local duration=$1
     local hostname=$(hostname)
-    local elapsed=$(get_elapsed_time 0 ${duration})
-    
+    local elapsed="${duration}s"
+
     local message="Installation completed successfully in ${elapsed}"
     
     # Add component information

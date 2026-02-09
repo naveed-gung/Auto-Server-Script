@@ -360,4 +360,4 @@ else
     exit 1
 fi
 
-echo -e "\n${C}Created by: naveed-gung (https://github.com/naveed-gung)${NC}\n"
+echo -e "\n${C}Created by: naveed-gung (https://github.com/naveed-gung) | Portfolio: https://naveed-gung.dev${NC}\n"

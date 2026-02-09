@@ -67,7 +67,7 @@ show_banner() {
 ║                                                                       ║
 ║          Elite Auto Server Setup - Version ${VERSION}                ║
 ║          Professional Server Provisioning System                     ║
-║          Created by: naveed-gung (github.com/naveed-gung)            ║
+║          Created by: naveed-gung | naveed-gung.dev                   ║
 ║                                                                       ║
 ╚═══════════════════════════════════════════════════════════════════════╝
 EOF
@@ -124,6 +124,7 @@ ${BOLD}CONFIGURATION PROFILES:${NC}
 
 ${BOLD}DOCUMENTATION:${NC}
     GitHub: https://github.com/naveed-gung/elite-server-setup
+    Portfolio: https://naveed-gung.dev
     Created by: naveed-gung
 
 EOF
@@ -135,6 +136,7 @@ EOF
 show_version() {
     echo "Elite Auto Server Setup v${VERSION}"
     echo "Created by: naveed-gung (https://github.com/naveed-gung)"
+    echo "Portfolio: https://naveed-gung.dev"
     echo "License: MIT"
 }
 

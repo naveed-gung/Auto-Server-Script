@@ -1,0 +1,207 @@
+# Elite Auto Server Setup - .gitignore
+# Prevents sensitive data and temporary files from being committed
+
+# ============================================================================
+# Sensitive Files - NEVER commit these
+# ============================================================================
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.csr
+id_rsa
+id_rsa.pub
+*.gpg
+
+# Environment files with secrets
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+config.local.json
+
+# Backup files that may contain credentials
+*.backup
+*.bak
+*.old
+*-credentials.txt
+mongodb-credentials.txt
+
+# SSH config
+.ssh/
+
+# ============================================================================
+# Operating System Files
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================================
+# Temporary Files & Directories
+# ============================================================================
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Temp directories created by scripts
+tmpclaude-*
+tmp-*
+temp-*
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Backup directories
+backups/
+*.backup/
+
+# ============================================================================
+# IDE & Editor Files
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Build & Cache Files
+# ============================================================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# ============================================================================
+# Test & Development
+# ============================================================================
+
+# Test outputs
+test-results/
+coverage/
+.nyc_output/
+
+# Development databases
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# Runtime & Generated Files
+# ============================================================================
+
+# Process IDs
+*.pid
+*.seed
+*.pid.lock
+
+# Downloaded dependencies
+vendor/
+lib-cov/
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# ============================================================================
+# Documentation Build Artifacts
+# ============================================================================
+
+# Generated docs
+docs/_build/
+site/
+
+# ============================================================================
+# Project-Specific Exclusions
+# ============================================================================
+
+# Installation artifacts (created during actual installation)
+/var/log/elite-setup/
+/var/lib/elite-setup/
+/etc/elite-setup/
+
+# Custom configuration files (user should create their own)
+config/custom.json
+config/local.json
+config/*.local.json
+
+# Reports (may contain sensitive server info)
+reports/
+*.html.report
+
+
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+
+!config/production.json
+!config/development.json
+!.gitignore
+!README.md
+!LICENSE

@@ -425,7 +425,7 @@ display_installation_summary() {
     print_box \
         "🎉 Congratulations! Your server is now ready for production." \
         "" \
-        "Installation completed in $(get_elapsed_time 0 ${duration})" \
+        "Installation completed in ${duration}s" \
         "" \
         "📊 Deployment Report: ${LOG_DIR}/report.html" \
         "📋 Security Checklist: ${LOG_DIR}/security-checklist.txt" \
