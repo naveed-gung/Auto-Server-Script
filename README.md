@@ -1,23 +1,60 @@
 <div align="center">
 
-# Elite Auto Server Setup
+<!-- Hero Section with Animated SVG Background Concept -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.png">
+  <img src="assets/image.png" alt="Elite Auto Server Setup" width="100%">
+</picture>
+
+# 🚀 Elite Auto Server Setup
 
 ### Zero-Touch Production Server Provisioning for MERN Stack
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Bash](https://img.shields.io/badge/Bash-5.0+-green.svg)](https://www.gnu.org/software/bash/)
-[![Platform](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://www.linux.org/)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)](https://github.com/naveed-gung/elite-server-setup)
+<div align="center">
 
+<<<<<<< HEAD
 **Created by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
+=======
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
+[![Bash](https://img.shields.io/badge/Bash-5.0+-4EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
+[![Platform](https://img.shields.io/badge/Platform-Linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-00C853.svg?style=for-the-badge)](https://github.com/naveed-gung/elite-server-setup)
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
+**Created by [naveed-gung](https://github.com/naveed-gung)** • [⭐ Star](https://github.com/naveed-gung/elite-server-setup) • [🐛 Issues](https://github.com/naveed-gung/elite-server-setup/issues) • [💬 Discussions](https://github.com/naveed-gung/elite-server-setup/discussions)
+
+</div>
+
+---
+
+<!-- Technology Stack Showcase -->
 <table>
 <tr>
-<td width="50%">
-<img src="assets/image.png" alt="Elite Server Setup Banner" width="100%"/>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js"/>
+<br><b>Node.js</b>
+<br><sub>20.x LTS</sub>
 </td>
-<td width="50%">
-<img src="https://github.com/user-attachments/assets/8b8e5b5e-8b3e-4b8e-8b3e-8b3e8b3e8b3e/image.png" alt="Elite Server Setup Preview" width="100%"/>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" alt="MongoDB"/>
+<br><b>MongoDB</b>
+<br><sub>7.0+</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx"/>
+<br><b>Nginx</b>
+<br><sub>Latest</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"/>
+<br><b>Docker</b>
+<br><sub>Optional</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux"/>
+<br><b>Linux</b>
+<br><sub>Multi-OS</sub>
 </td>
 </tr>
 </table>
@@ -26,46 +63,46 @@
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=linux" width="24"/> Overview
+## 📋 Table of Contents
 
-**Elite Auto Server Setup** is an enterprise-grade automation tool that provisions complete MERN infrastructure with zero human intervention. This tool installs and configures the **server infrastructure** (MongoDB, Node.js, Nginx, PM2), applies security hardening, and prepares your server for production deployment.
+<details open>
+<summary><b>Click to expand/collapse</b></summary>
 
-### What This Tool Does
+- [🎯 Overview](#-overview)
+- [✨ Features](#-features)
+- [🚀 Quick Start](#-quick-start)
+- [⚙️ Configuration](#️-configuration)
+- [📦 Post-Installation](#-post-installation-deploy-your-mern-application)
+- [🔧 Maintenance](#-maintenance--operations)
+- [🧪 Testing](#-testing--validation)
+- [🛠️ Troubleshooting](#️-troubleshooting)
+- [🏗️ Architecture](#️-project-architecture)
+- [🔒 Security](#-security)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Credits](#-credits--acknowledgments)
 
-<img src="https://skillicons.dev/icons?i=nodejs,mongodb,nginx,docker" width="200"/>
-
-- <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> Installs **Node.js** (LTS) + npm/npx via NodeSource
-- <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> Installs **MongoDB** 7.0+ with authentication & optimization
-- <img src="https://skillicons.dev/icons?i=nginx" width="16"/> Configures **Nginx** as reverse proxy with SSL/TLS support
-- <img src="https://skillicons.dev/icons?i=pm2" width="16"/> Sets up **PM2** process manager for Node.js applications
-- <img src="https://skillicons.dev/icons?i=docker" width="16"/> Optional **Docker** installation with docker-compose
-- <img src="https://skillicons.dev/icons?i=bash" width="16"/> Hardens security (UFW firewall, Fail2ban, SSH hardening)
-- <img src="https://skillicons.dev/icons?i=linux" width="16"/> Enables automated updates & comprehensive monitoring
-
-### What You Deploy After Installation
-
-<img src="https://skillicons.dev/icons?i=react,express,js,ts" width="160"/>
-
-- Deploy your **React** frontend code
-- Deploy your **Express.js** backend API
-- Connect your application to the configured MongoDB database
-- Use PM2 to manage your Node.js processes
-- Configure Nginx to reverse proxy your application
+</details>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Features
+## 🎯 Overview
 
-### <img src="https://skillicons.dev/icons?i=bash" width="20"/> Intelligent Automation
+> **Elite Auto Server Setup** is an enterprise-grade automation tool that provisions complete MERN infrastructure with zero human intervention. Deploy production-ready servers in minutes, not hours.
 
-- **Pre-flight System Checks** - Validates OS compatibility, disk space, ports, and services
-- **Interactive CLI Wizard** - Beautiful color-coded interface with progress tracking
-- **Non-Interactive Mode** - JSON configuration for CI/CD pipelines
-- **Idempotent Operations** - Safe to run multiple times without conflicts
-- **Automatic Rollback** - Reverts changes on failure with detailed logging
+<div align="center">
 
-### <img src="https://skillicons.dev/icons?i=linux" width="20"/> Technology Stack
+```mermaid
+graph LR
+    A[🖥️ Fresh Server] -->|One Command| B[⚡ Elite Setup]
+    B --> C[✅ Production Ready]
+    
+    style A fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
+    style B fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+```
 
+<<<<<<< HEAD
 | Component                                                                  | Version  | Purpose                             |
 | -------------------------------------------------------------------------- | -------- | ----------------------------------- |
 | <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> **Node.js**  | 20.x LTS | JavaScript runtime (via NodeSource) |
@@ -74,77 +111,285 @@
 | **PM2**                                                                    | Latest   | Process manager with clustering     |
 | <img src="https://skillicons.dev/icons?i=docker" width="16"/> **Docker**   | Latest   | Container runtime (optional)        |
 | **Certbot**                                                                | Latest   | Let's Encrypt SSL automation        |
+=======
+</div>
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
-### <img src="https://skillicons.dev/icons?i=linux" width="20"/> Security Hardening
+### 🎨 What This Tool Does
 
-- **UFW Firewall** - Strict rules (ports 22, 80, 443, 27017)
-- **Fail2ban** - Protection against brute-force attacks
-- **SSH Hardening** - Disable root login, key-only authentication
-- **Auto Updates** - Unattended security patches
-- **MongoDB Auth** - Required authentication, localhost binding
-- **Nginx Headers** - Security headers (X-Frame-Options, CSP, HSTS)
-- **System Limits** - Optimized file descriptors and processes
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### <img src="https://skillicons.dev/icons?i=github" width="20"/> Enterprise Features
+#### 🛠️ **Server Infrastructure**
 
-- **Deployment Reports** - HTML/text reports with complete system information
-- **Configuration Profiles** - Pre-configured development/staging/production modes
-- **Multi-channel Notifications** - Slack, Discord, and email integration
-- **Health Monitoring** - Automated post-install verification
-- **Backup & Rollback** - Snapshot creation and restoration tools
+```bash
+✓ Node.js 20.x LTS + npm/npx
+✓ MongoDB 7.0+ (authenticated)
+✓ Nginx (reverse proxy + SSL)
+✓ PM2 (process manager)
+✓ Docker + Compose (optional)
+✓ Certbot (Let's Encrypt SSL)
+```
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔒 **Security Hardening**
+
+```bash
+✓ UFW Firewall configuration
+✓ Fail2ban brute-force protection
+✓ SSH hardening (key-only auth)
+✓ Automatic security updates
+✓ MongoDB authentication
+✓ Nginx security headers
+```
+
+</td>
+</tr>
+</table>
+
+### 🎭 What You Deploy After
+
+<div align="center">
+
+| Frontend | Backend | Database | DevOps |
+|:--------:|:-------:|:--------:|:------:|
+| <img src="https://skillicons.dev/icons?i=react,vue,angular" width="80"/> | <img src="https://skillicons.dev/icons?i=express,nodejs" width="60"/> | <img src="https://skillicons.dev/icons?i=mongodb" width="40"/> | <img src="https://skillicons.dev/icons?i=nginx,docker" width="60"/> |
+| Your React/Vue app | Your Express API | Connected DB | Configured proxy |
+
+</div>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=bash" width="24"/> Quick Start
+## ✨ Features
 
-### Prerequisites
+<details open>
+<summary><b>🤖 Intelligent Automation</b></summary>
 
-<img src="https://skillicons.dev/icons?i=ubuntu,debian,linux" width="120"/>
+<br>
 
-- **OS**: Ubuntu 20.04/22.04 LTS, Debian 11/12, CentOS 8+, RHEL 8+
-- **Access**: Root or sudo privileges
-- **Network**: Internet connection for downloads
-- **Resources**: Minimum 10GB disk, 1GB RAM
+<table>
+<tr>
+<td width="50">🔍</td>
+<td><b>Pre-flight System Checks</b><br>Validates OS compatibility, disk space, ports, and services before installation</td>
+</tr>
+<tr>
+<td width="50">🎨</td>
+<td><b>Interactive CLI Wizard</b><br>Beautiful color-coded interface with real-time progress tracking</td>
+</tr>
+<tr>
+<td width="50">🤖</td>
+<td><b>Non-Interactive Mode</b><br>JSON configuration support for CI/CD pipelines and automation</td>
+</tr>
+<tr>
+<td width="50">♻️</td>
+<td><b>Idempotent Operations</b><br>Safe to run multiple times without conflicts or duplicates</td>
+</tr>
+<tr>
+<td width="50">↩️</td>
+<td><b>Automatic Rollback</b><br>Reverts changes on failure with detailed logging and recovery</td>
+</tr>
+</table>
 
-### Installation
+</details>
 
-#### Method 1: Interactive Mode (Recommended)
+<details>
+<summary><b>🔧 Technology Stack</b></summary>
+
+<br>
+
+<div align="center">
+
+| Component | Version | Purpose | Status |
+|:---------:|:-------:|:--------|:------:|
+| <img src="https://skillicons.dev/icons?i=nodejs" width="20"/> **Node.js** | 20.x LTS | JavaScript runtime via NodeSource | ✅ |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="20"/> **MongoDB** | 7.0+ | NoSQL database (Community Edition) | ✅ |
+| <img src="https://skillicons.dev/icons?i=nginx" width="20"/> **Nginx** | Latest | Reverse proxy + SSL termination | ✅ |
+| **PM2** | Latest | Process manager with clustering | ✅ |
+| <img src="https://skillicons.dev/icons?i=docker" width="20"/> **Docker** | Latest | Container runtime (optional) | ⚙️ |
+| **Certbot** | Latest | Let's Encrypt SSL automation | ✅ |
+
+</div>
+
+</details>
+
+<details>
+<summary><b>🔒 Security Hardening</b></summary>
+
+<br>
+
+```mermaid
+graph TD
+    A[🔒 Security Layers] --> B[🔥 UFW Firewall]
+    A --> C[🛡️ Fail2ban]
+    A --> D[🔑 SSH Hardening]
+    A --> E[📦 Auto Updates]
+    A --> F[🔐 MongoDB Auth]
+    A --> G[🌐 Nginx Headers]
+    
+    B --> H[✅ Production Ready]
+    C --> H
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+    
+    style A fill:#339af0,stroke:#1971c2,stroke-width:3px,color:#fff
+    style H fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+```
+
+<table>
+<tr>
+<td>
+
+- 🔥 **UFW Firewall** - Strict rules (22, 80, 443, 27017)
+- 🛡️ **Fail2ban** - Brute-force protection
+- 🔑 **SSH Hardening** - Key-only authentication
+- 📦 **Auto Updates** - Unattended security patches
+
+</td>
+<td>
+
+- 🔐 **MongoDB Auth** - Required authentication
+- 🌐 **Nginx Headers** - X-Frame-Options, CSP, HSTS
+- 📊 **System Limits** - Optimized file descriptors
+- 📝 **Audit Logging** - Complete installation tracking
+
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>🎯 Enterprise Features</b></summary>
+
+<br>
+
+<div align="center">
+
+```ascii
+┌─────────────────────────────────────────────────────────────┐
+│  📊 DEPLOYMENT REPORTS    │  🔔 NOTIFICATIONS             │
+│  ├─ HTML dashboard         │  ├─ Slack integration         │
+│  ├─ Text summaries         │  ├─ Discord webhooks          │
+│  └─ System information     │  └─ Email alerts              │
+├─────────────────────────────────────────────────────────────┤
+│  ⚙️ CONFIGURATION         │  💾 BACKUP & ROLLBACK         │
+│  ├─ Pre-defined profiles   │  ├─ Snapshot creation         │
+│  ├─ Custom JSON configs    │  ├─ One-click restoration     │
+│  └─ Multi-environment      │  └─ Version control           │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+</details>
+
+---
+
+## 🚀 Quick Start
+
+### 📋 Prerequisites
+
+<div align="center">
+
+| Requirement | Specification |
+|:-----------:|:-------------|
+| **OS** | <img src="https://skillicons.dev/icons?i=ubuntu" width="16"/> Ubuntu 20.04/22.04 LTS<br><img src="https://skillicons.dev/icons?i=debian" width="16"/> Debian 11/12<br><img src="https://skillicons.dev/icons?i=linux" width="16"/> CentOS 8+ / RHEL 8+ |
+| **Access** | Root or sudo privileges |
+| **Network** | Internet connection for downloads |
+| **Resources** | Min 10GB disk, 1GB RAM |
+
+</div>
+
+### 🎬 Installation Methods
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+#### 🖱️ Method 1
+**Interactive Mode**
+<br><sub>Recommended for first-time users</sub>
 
 ```bash
-# Clone the repository
-git clone https://github.com/naveed-gung/elite-server-setup.git
-cd elite-server-setup
+git clone https://github.com/\
+naveed-gung/elite-server-setup.git
 
-# Run the installer
+cd elite-server-setup
 sudo ./setup.sh
 ```
 
-The interactive wizard will guide you through the configuration.
+</td>
+<td width="33%" align="center">
 
-#### Method 2: Quick Production Setup
+#### ⚡ Method 2
+**Quick Production**
+<br><sub>Fast deployment with SSL</sub>
 
 ```bash
 sudo ./setup.sh \
   --profile=production \
   --domain=api.yourdomain.com \
-  --ssl-email=admin@yourdomain.com \
-  --slack-webhook=https://hooks.slack.com/services/YOUR/WEBHOOK
+  --ssl-email=admin@example.com
 ```
 
-#### Method 3: Non-Interactive (CI/CD)
+</td>
+<td width="33%" align="center">
+
+#### 🤖 Method 3
+**CI/CD Pipeline**
+<br><sub>Automated deployment</sub>
 
 ```bash
-# Use a JSON configuration file
-sudo ./setup.sh --config=config/production.json --silent
+sudo ./setup.sh \
+  --config=config/production.json \
+  --silent
 ```
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 📹 Installation Demo
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant S as Setup Script
+    participant SYS as System
+    
+    U->>S: Run ./setup.sh
+    S->>SYS: Pre-flight checks ✓
+    S->>SYS: Install Node.js ✓
+    S->>SYS: Install MongoDB ✓
+    S->>SYS: Install Nginx ✓
+    S->>SYS: Apply Security ✓
+    S->>U: ✅ Setup Complete!
+```
+
+</div>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=git" width="24"/> Configuration
+## ⚙️ Configuration
 
-### Command-Line Options
+<div align="center">
+
+### 📝 Command-Line Options
+
+</div>
+
+<details open>
+<summary><b>Core Options</b></summary>
 
 ```bash
+<<<<<<< HEAD
 Usage: ./setup.sh [OPTIONS]
 
 Core Options:
@@ -193,33 +438,118 @@ Utility Options:
   --cleanup                  Remove installation artifacts after completion
   -h, --help                 Show this help message
   -v, --version              Show version information
+=======
+--profile=PROFILE          # development|staging|production
+--config=FILE              # Load configuration from JSON file
+--mode=MODE                # interactive|silent|unattended
+--silent                   # Suppress all prompts (requires --config)
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 ```
 
-### Configuration Profiles
+</details>
 
-#### <img src="https://skillicons.dev/icons?i=vscode" width="16"/> Development Profile
+<details>
+<summary><b>Component Selection</b></summary>
 
 ```bash
-sudo ./setup.sh --profile=development
+--with-nodejs              # Install Node.js (default: enabled)
+--with-mongodb             # Install MongoDB (default: enabled)
+--with-nginx               # Install Nginx (default: enabled)
+--with-pm2                 # Install PM2 (default: enabled)
+--with-docker              # Install Docker (default: disabled)
+--skip-security            # Skip security hardening (not recommended)
+```
+
+</details>
+
+<details>
+<summary><b>Network Configuration</b></summary>
+
+```bash
+--domain=DOMAIN            # Domain name for SSL configuration
+--ssl-email=EMAIL          # Email for Let's Encrypt certificates
+--enable-ssl               # Enable SSL/TLS with Let's Encrypt
+```
+
+</details>
+
+<details>
+<summary><b>Version Selection</b></summary>
+
+```bash
+--node-version=VERSION     # 18|20|22 (default: 20)
+--mongodb-version=VERSION  # 6.0|7.0 (default: 7.0)
+```
+
+</details>
+
+<details>
+<summary><b>Security Options</b></summary>
+
+```bash
+--enable-firewall          # Configure UFW firewall
+--enable-fail2ban          # Install Fail2ban protection
+--harden-ssh               # Harden SSH configuration
+```
+
+</details>
+
+<details>
+<summary><b>Notifications</b></summary>
+
+```bash
+--slack-webhook=URL        # Slack webhook for notifications
+--discord-webhook=URL      # Discord webhook for notifications
+--email=ADDRESS            # Email address for notifications
+```
+
+</details>
+
+### 🎨 Configuration Profiles
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+#### 🔧 Development
+
+```bash
+sudo ./setup.sh \
+  --profile=development
 ```
 
 **Includes:**
+<<<<<<< HEAD
 
 - Node.js 20 + npm
 - MongoDB without authentication
 - Nginx without SSL
 - PM2 in single-instance mode
 - Minimal security (for local testing)
+=======
+- ✅ Node.js 20
+- ✅ MongoDB (no auth)
+- ✅ Nginx (no SSL)
+- ✅ PM2 single mode
+- ⚠️ Minimal security
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
-#### <img src="https://skillicons.dev/icons?i=linux" width="16"/> Production Profile
+<sub>Perfect for local testing</sub>
+
+</td>
+<td width="33%" valign="top">
+
+#### 🚀 Production
 
 ```bash
-sudo ./setup.sh --profile=production \
+sudo ./setup.sh \
+  --profile=production \
   --domain=yourapp.com \
   --ssl-email=admin@yourapp.com
 ```
 
 **Includes:**
+<<<<<<< HEAD
 
 - Node.js 20 + npm
 - MongoDB with authentication enabled
@@ -228,10 +558,40 @@ sudo ./setup.sh --profile=production \
 - Full security hardening
 - Automatic updates enabled
 - Notifications enabled
+=======
+- ✅ Node.js 20
+- ✅ MongoDB (with auth)
+- ✅ Nginx (with SSL)
+- ✅ PM2 cluster mode
+- 🔒 Full security
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
-#### <img src="https://skillicons.dev/icons?i=docker" width="16"/> Custom Configuration (JSON)
+<sub>Production-ready setup</sub>
 
-Create `config/custom.json`:
+</td>
+<td width="33%" valign="top">
+
+#### ⚙️ Custom JSON
+
+```bash
+sudo ./setup.sh \
+  --config=config/custom.json
+```
+
+**Includes:**
+- ⚙️ Custom versions
+- ⚙️ Selective components
+- ⚙️ Advanced options
+- ⚙️ Fine-tuned security
+
+<sub>Maximum flexibility</sub>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📄 Example: Custom JSON Configuration</b></summary>
 
 ```json
 {
@@ -272,103 +632,119 @@ Create `config/custom.json`:
 }
 ```
 
-Then run:
-
-```bash
-sudo ./setup.sh --config=config/custom.json
-```
+</details>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=react" width="24"/> Post-Installation: Deploy Your MERN Application
+## 📦 Post-Installation: Deploy Your MERN Application
 
-### Step 1: Verify Installation
+<div align="center">
+
+```mermaid
+graph LR
+    A[✅ Installation<br/>Complete] --> B[📦 Upload<br/>Code]
+    B --> C[📥 Install<br/>Dependencies]
+    C --> D[⚙️ Configure<br/>Environment]
+    D --> E[🚀 Start with<br/>PM2]
+    E --> F[🌐 Setup<br/>Nginx]
+    F --> G[🎉 Live!]
+    
+    style A fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+    style G fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
+```
+
+</div>
+
+### Step-by-Step Deployment Guide
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### **1️⃣ Verify Installation**
 
 ```bash
 # Run health check
 sudo ./scripts/health-check.sh
 
-# Check service status
+# Check services
 systemctl status nginx mongodb pm2
 
-# View installation report
+# View report
 cat /var/log/elite-setup/report.html
 ```
 
-### Step 2: Prepare Your Application
-
-<img src="https://skillicons.dev/icons?i=git,github" width="80"/>
+#### **2️⃣ Upload Your Code**
 
 ```bash
-# Upload your code via Git
+# Via Git (recommended)
 cd /var/www
-git clone https://github.com/yourusername/your-mern-app.git
-cd your-mern-app
+git clone https://github.com/user/app.git
 
-# Or use SCP
-scp -r my-app/ user@yourserver:/var/www/my-app/
+# Via SCP
+scp -r my-app/ user@server:/var/www/
 ```
 
-### Step 3: Install Dependencies
-
-<img src="https://skillicons.dev/icons?i=npm" width="40"/>
+#### **3️⃣ Install Dependencies**
 
 ```bash
-cd /var/www/your-mern-app
-
-# Install production dependencies
+cd /var/www/your-app
 npm install --production
-
-# Build frontend (if using React/Vue)
-npm run build
+npm run build  # If using frontend
 ```
 
-### Step 4: Configure Environment
+</td>
+<td width="50%" valign="top">
+
+#### **4️⃣ Configure Environment**
 
 ```bash
 # Create .env file
 cat > .env << EOF
 NODE_ENV=production
 PORT=3000
-MONGODB_URI=mongodb://admin:password@localhost:27017/myapp?authSource=admin
+MONGODB_URI=mongodb://admin:pass@\
+localhost:27017/myapp?authSource=admin
 EOF
 
-# MongoDB credentials are stored in:
+# Get MongoDB credentials
 cat /root/.mongodb_credentials
 ```
 
-### Step 5: Start with PM2
-
-<img src="https://skillicons.dev/icons?i=nodejs" width="40"/>
+#### **5️⃣ Start with PM2**
 
 ```bash
-# Start your Node.js application
+# Start application
 pm2 start server.js --name my-app -i max
 
-# Or use ecosystem file
-pm2 start ecosystem.config.js
-
-# Save PM2 configuration
+# Save configuration
 pm2 save
 pm2 startup
 ```
 
-### Step 6: Configure Nginx Reverse Proxy
-
-<img src="https://skillicons.dev/icons?i=nginx" width="40"/>
+#### **6️⃣ Configure Nginx**
 
 ```bash
-# Create Nginx configuration
-sudo nano /etc/nginx/sites-available/myapp.conf
+# Create site configuration
+sudo nano /etc/nginx/sites-available/app
 ```
 
-**Example Nginx Configuration:**
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>📝 Example Nginx Configuration</b></summary>
 
 ```nginx
 server {
     server_name yourdomain.com www.yourdomain.com;
+<<<<<<< HEAD
 
     # Proxy to Node.js app
+=======
+    
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
     location / {
         proxy_pass http://localhost:3000;
         proxy_http_version 1.1;
@@ -392,11 +768,9 @@ server {
     if ($host = www.yourdomain.com) {
         return 301 https://$host$request_uri;
     }
-
     if ($host = yourdomain.com) {
         return 301 https://$host$request_uri;
     }
-
     listen 80;
     server_name yourdomain.com www.yourdomain.com;
     return 404;
@@ -406,17 +780,18 @@ server {
 **Enable and reload:**
 
 ```bash
-sudo ln -s /etc/nginx/sites-available/myapp.conf /etc/nginx/sites-enabled/
+sudo ln -s /etc/nginx/sites-available/app /etc/nginx/sites-enabled/
 sudo nginx -t
 sudo systemctl reload nginx
 ```
 
-### Step 7: Connect to MongoDB
+</details>
 
-<img src="https://skillicons.dev/icons?i=mongodb" width="40"/>
+<details>
+<summary><b>🗄️ MongoDB Connection Setup</b></summary>
 
 ```bash
-# Get MongoDB credentials
+# Get credentials
 cat /root/.mongodb_credentials
 
 # Connect to MongoDB
@@ -431,82 +806,121 @@ db.createUser({
 })
 ```
 
-**Update your app's connection string:**
+**Update connection string in your app:**
 
 ```javascript
+<<<<<<< HEAD
 // In your Node.js app
 const MONGODB_URI =
   "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
+=======
+const MONGODB_URI = "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 ```
+
+</details>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=linux" width="24"/> Maintenance & Operations
+## 🔧 Maintenance & Operations
 
-### Daily Operations
+<div align="center">
 
-#### <img src="https://skillicons.dev/icons?i=bash" width="16"/> Check System Health
+### 📊 Daily Operations Dashboard
+
+| Task | Command | Frequency |
+|:----:|:--------|:---------:|
+| 🏥 | **Health Check** | Daily |
+| 📝 | **View Logs** | As needed |
+| 🔄 | **Restart Services** | As needed |
+| 💾 | **Backup Data** | Weekly |
+| 🔐 | **SSL Renewal** | Auto (90 days) |
+
+</div>
+
+<details open>
+<summary><b>🏥 Health Monitoring</b></summary>
 
 ```bash
+# Comprehensive health check
 sudo ./scripts/health-check.sh
+
+# Quick status check
+systemctl status nginx mongodb pm2
+
+# Resource monitoring
+htop
+pm2 monit
 ```
 
-#### <img src="https://skillicons.dev/icons?i=linux" width="16"/> View Logs
+</details>
 
+<details>
+<summary><b>📝 Log Management</b></summary>
+
+<table>
+<tr>
+<td width="50%">
+
+**Elite Setup Logs**
 ```bash
-# Elite Setup logs
 tail -f /var/log/elite-setup/setup.log
+```
 
-# Nginx logs
+**Nginx Logs**
+```bash
 tail -f /var/log/nginx/access.log
 tail -f /var/log/nginx/error.log
-
-# MongoDB logs
-tail -f /var/log/mongodb/mongod.log
-
-# PM2 logs
-pm2 logs
 ```
 
-#### <img src="https://skillicons.dev/icons?i=docker" width="16"/> Restart Services
+</td>
+<td width="50%">
 
+**MongoDB Logs**
 ```bash
-# Restart all services
-sudo systemctl restart nginx mongodb
-
-# Restart PM2 apps
-pm2 restart all
-
-# Reload Nginx config
-sudo systemctl reload nginx
+tail -f /var/log/mongodb/mongod.log
 ```
 
-### Backup & Restore
+**PM2 Logs**
+```bash
+pm2 logs
+pm2 logs app-name
+```
 
-#### <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> Create Backup
+</td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>💾 Backup & Restore</b></summary>
+
+**Create Backup:**
 
 ```bash
 # Backup MongoDB
 mongodump --uri="mongodb://admin:password@localhost:27017" \
   --out=/backup/mongo-$(date +%Y%m%d)
 
-# Backup configuration files
+# Backup configurations
 sudo tar -czf /backup/configs-$(date +%Y%m%d).tar.gz \
   /etc/nginx \
   /etc/mongod.conf \
   /etc/systemd/system/pm2-*.service
 ```
 
-#### <img src="https://skillicons.dev/icons?i=bash" width="16"/> Rollback Installation
+**Rollback Installation:**
 
 ```bash
 # Revert to pre-installation state
 sudo ./scripts/rollback.sh
 ```
 
-### SSL Certificate Renewal
+</details>
 
-<img src="https://skillicons.dev/icons?i=linux" width="40"/>
+<details>
+<summary><b>🔐 SSL Certificate Management</b></summary>
 
 ```bash
 # Certificates auto-renew via certbot
@@ -520,20 +934,27 @@ sudo certbot renew --force-renewal
 sudo systemctl reload nginx
 ```
 
+</details>
+
 ---
 
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Testing & Validation
+## 🧪 Testing & Validation
 
-### Run Validation Suite
+<div align="center">
+
+### 🎯 Comprehensive Validation Suite
+
+</div>
 
 ```bash
-# Quick validation (no installation)
+# Run quick validation (no installation required)
 ./quick-test.sh
 
-# Verbose output
+# Verbose output with detailed analysis
 ./quick-test.sh --verbose
 ```
 
+<<<<<<< HEAD
 **Test Coverage:**
 
 - ✅ File structure validation (20+ tests)
@@ -544,8 +965,30 @@ sudo systemctl reload nginx
 - ✅ Documentation quality assessment
 - ✅ Integration & compatibility tests
 - ✅ Compliance & standards verification
+=======
+<details>
+<summary><b>📊 Test Coverage Matrix</b></summary>
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
-**Example Output:**
+<div align="center">
+
+| Category | Tests | Status |
+|:---------|:-----:|:------:|
+| 📁 File Structure | 20+ | ✅ |
+| 🔍 Syntax Checking | 15+ | ✅ |
+| ⚙️ JSON Validation | 10+ | ✅ |
+| 🔒 Security Analysis | 25+ | ✅ |
+| 📏 Code Quality | 12+ | ✅ |
+| 📖 Documentation | 8+ | ✅ |
+| 🔗 Integration | 10+ | ✅ |
+| ✅ Compliance | 5+ | ✅ |
+
+</div>
+
+</details>
+
+<details>
+<summary><b>📈 Example Test Output</b></summary>
 
 ```
 ╔═══════════════════════════════════════════════════╗
@@ -566,7 +1009,6 @@ Directory: /opt/elite-server-setup
 [✓] License file: LICENSE
 [✓] Library: lib/colors.sh (298 lines)
 [✓] Library: lib/logger.sh (377 lines)
-...
 
 ═══════════════════════════════════════════════
   TEST SUMMARY
@@ -586,13 +1028,20 @@ Success Rate:   96.5%
 ╚═══════════════════════════════════════════════╝
 ```
 
+</details>
+
 ---
 
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Troubleshooting
+## 🛠️ Troubleshooting
 
-### Common Issues
+<div align="center">
 
-#### <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> MongoDB Connection Failed
+### 🔍 Common Issues & Solutions
+
+</div>
+
+<details>
+<summary><b>🗄️ MongoDB Connection Failed</b></summary>
 
 ```bash
 # Check MongoDB status
@@ -608,7 +1057,16 @@ mongosh --username admin --password --authenticationDatabase admin
 sudo systemctl restart mongodb
 ```
 
-#### <img src="https://skillicons.dev/icons?i=nginx" width="16"/> Nginx Configuration Error
+**Common causes:**
+- ❌ Wrong credentials
+- ❌ Authentication database mismatch
+- ❌ Port 27017 blocked
+- ❌ MongoDB not started
+
+</details>
+
+<details>
+<summary><b>🌐 Nginx Configuration Error</b></summary>
 
 ```bash
 # Test configuration
@@ -621,7 +1079,16 @@ sudo tail -f /var/log/nginx/error.log
 sudo systemctl reload nginx
 ```
 
-#### <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> PM2 Process Crashes
+**Common causes:**
+- ❌ Syntax errors in config
+- ❌ Certificate path issues
+- ❌ Port already in use
+- ❌ Incorrect server_name
+
+</details>
+
+<details>
+<summary><b>⚡ PM2 Process Crashes</b></summary>
 
 ```bash
 # View PM2 logs
@@ -637,7 +1104,16 @@ pm2 restart app-name
 pm2 monit
 ```
 
-#### <img src="https://skillicons.dev/icons?i=linux" width="16"/> Firewall Blocking Connections
+**Common causes:**
+- ❌ Uncaught exceptions
+- ❌ Memory leaks
+- ❌ Port conflicts
+- ❌ Missing dependencies
+
+</details>
+
+<details>
+<summary><b>🔥 Firewall Blocking Connections</b></summary>
 
 ```bash
 # Check UFW status
@@ -650,108 +1126,438 @@ sudo ufw allow 3000/tcp
 sudo ufw reload
 ```
 
-### Getting Help
+**Common causes:**
+- ❌ Port not allowed in UFW
+- ❌ Wrong protocol (TCP/UDP)
+- ❌ Application not listening
+- ❌ SELinux restrictions
 
-<img src="https://skillicons.dev/icons?i=github,stackoverflow,discord" width="120"/>
+</details>
 
-If you encounter issues:
+<div align="center">
 
-1. **Check Logs**: Review `/var/log/elite-setup/setup.log` for detailed logs
-2. **Run Health Check**: Execute `sudo ./scripts/health-check.sh`
-3. **Review Report**: Check `/var/log/elite-setup/report.html`
-4. **Open Issue**: [Create a GitHub issue](https://github.com/naveed-gung/elite-server-setup/issues) with logs attached
+### 💡 Getting Help
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://skillicons.dev/icons?i=github" width="48"/>
+<br><b>GitHub Issues</b>
+<br><sub><a href="https://github.com/naveed-gung/elite-server-setup/issues">Report a bug</a></sub>
+</td>
+<td align="center" width="33%">
+<img src="https://skillicons.dev/icons?i=stackoverflow" width="48"/>
+<br><b>Documentation</b>
+<br><sub>README + inline comments</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://skillicons.dev/icons?i=discord" width="48"/>
+<br><b>Community</b>
+<br><sub><a href="https://github.com/naveed-gung/elite-server-setup/discussions">Join discussions</a></sub>
+</td>
+</tr>
+</table>
+
+**Before requesting help:**
+1. ✅ Check logs: `/var/log/elite-setup/setup.log`
+2. ✅ Run health check: `sudo ./scripts/health-check.sh`
+3. ✅ Review report: `/var/log/elite-setup/report.html`
+4. ✅ Include error messages in your issue
+
+</div>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=git" width="24"/> Project Architecture
+## 🏗️ Project Architecture
 
-### Directory Structure
+<div align="center">
+
+```mermaid
+graph TB
+    subgraph "📦 Elite Server Setup"
+        A[setup.sh<br/>336 lines]
+        B[quick-test.sh<br/>Validation]
+    end
+    
+    subgraph "📚 Core Libraries - 3,850+ LOC"
+        C[colors.sh<br/>298 lines]
+        D[logger.sh<br/>377 lines]
+        E[utils.sh<br/>507 lines]
+        F[preflight.sh<br/>276 lines]
+        G[config.sh<br/>352 lines]
+        H[installer.sh<br/>586 lines]
+        I[security.sh<br/>380 lines]
+        J[reporting.sh<br/>465 lines]
+        K[notifications.sh<br/>420 lines]
+    end
+    
+    subgraph "⚙️ Configuration"
+        L[production.json]
+        M[development.json]
+        N[custom.json]
+    end
+    
+    subgraph "📄 Templates"
+        O[nginx.conf]
+        P[mongod.conf]
+        Q[ecosystem.config.js]
+    end
+    
+    A --> C & D & E & F & G & H & I & J & K
+    A --> L & M & N
+    H --> O & P & Q
+    
+    style A fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+    style B fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+```
+
+</div>
+
+### 📂 Directory Structure
+
+<details open>
+<summary><b>Click to view complete structure</b></summary>
 
 ```
 elite-server-setup/
-├── setup.sh                    # Main entry point (336 lines)
-├── quick-test.sh              # Professional validation suite
-├── LICENSE                     # MIT License
-├── README.md                   # This documentation
 │
-├── lib/                        # Core library modules (3,850+ LOC)
-│   ├── colors.sh              # Terminal UI & formatting (298 lines)
-│   ├── logger.sh              # Structured logging system (377 lines)
-│   ├── utils.sh               # 50+ utility functions (507 lines)
-│   ├── preflight.sh           # Pre-flight system checks (276 lines)
-│   ├── config.sh              # Configuration management (352 lines)
-│   ├── installer.sh           # Component installers (586 lines)
-│   ├── security.sh            # Security hardening (380 lines)
-│   ├── reporting.sh           # Report generation (465 lines)
-│   └── notifications.sh       # Alert system (420 lines)
+├── 🚀 setup.sh                    # Main entry point (336 lines)
+├── 🧪 quick-test.sh              # Professional validation suite
+├── 📄 LICENSE                     # MIT License
+├── 📖 README.md                   # This documentation
 │
-├── config/                     # Configuration profiles
-│   ├── production.json        # Production settings
-│   └── development.json       # Development settings
+├── 📚 lib/                        # Core library modules (3,850+ LOC)
+│   ├── 🎨 colors.sh              # Terminal UI & formatting (298 lines)
+│   ├── 📝 logger.sh              # Structured logging system (377 lines)
+│   ├── 🔧 utils.sh               # 50+ utility functions (507 lines)
+│   ├── 🔍 preflight.sh           # Pre-flight system checks (276 lines)
+│   ├── ⚙️ config.sh              # Configuration management (352 lines)
+│   ├── 📦 installer.sh           # Component installers (586 lines)
+│   ├── 🔒 security.sh            # Security hardening (380 lines)
+│   ├── 📊 reporting.sh           # Report generation (465 lines)
+│   └── 🔔 notifications.sh       # Alert system (420 lines)
 │
-├── templates/                  # Service configuration templates
-│   ├── nginx.conf             # Nginx main configuration
-│   ├── mongod.conf            # MongoDB configuration
-│   └── ecosystem.config.js    # PM2 configuration
+├── ⚙️ config/                     # Configuration profiles
+│   ├── production.json           # Production settings
+│   ├── development.json          # Development settings
+│   └── custom.json               # Custom configuration template
 │
-├── scripts/                    # Utility scripts
-│   ├── health-check.sh        # System verification (200+ lines)
-│   └── rollback.sh            # Installation reversal (150+ lines)
+├── 📄 templates/                  # Service configuration templates
+│   ├── nginx.conf                # Nginx main configuration
+│   ├── site.conf                 # Nginx site template
+│   ├── mongod.conf               # MongoDB configuration
+│   └── ecosystem.config.js       # PM2 configuration
 │
-└── tests/                      # Test suite
-    └── run-tests.sh           # Automated tests
+├── 🔧 scripts/                    # Utility scripts
+│   ├── health-check.sh           # System verification (200+ lines)
+│   ├── rollback.sh               # Installation reversal (150+ lines)
+│   └── backup.sh                 # Backup automation
+│
+├── 🧪 tests/                      # Test suite
+│   ├── run-tests.sh              # Automated tests
+│   └── integration/              # Integration tests
+│
+└── 📁 assets/                     # Media assets
+    ├── hero-dark.png             # Dark mode banner
+    ├── hero-light.png            # Light mode banner
+    └── diagrams/                 # Architecture diagrams
 ```
 
-### Installation Flow
+</details>
+
+### 🔄 Installation Flow
+
+<div align="center">
 
 ```mermaid
-graph TD
-    A[Start] --> B[Pre-flight Checks]
-    B --> C{System Valid?}
-    C -->|No| D[Display Errors & Exit]
-    C -->|Yes| E[Load Configuration]
-    E --> F[Create Backup Point]
-    F --> G[Install Node.js]
-    G --> H[Install MongoDB]
-    H --> I[Install Nginx]
-    I --> J[Install PM2]
-    J --> K{Docker Enabled?}
-    K -->|Yes| L[Install Docker]
-    K -->|No| M[Apply Security]
-    L --> M
-    M --> N[Run Health Checks]
-    N --> O[Generate Report]
-    O --> P[Send Notifications]
-    P --> Q[Success!]
+stateDiagram-v2
+    [*] --> PreFlight: Start Setup
+    
+    PreFlight --> Validation: System Check
+    Validation --> LoadConfig: ✓ Valid
+    Validation --> Error: ✗ Invalid
+    
+    LoadConfig --> Backup: Load Settings
+    Backup --> InstallNode: Create Snapshot
+    
+    InstallNode --> InstallMongo: Node.js ✓
+    InstallMongo --> InstallNginx: MongoDB ✓
+    InstallNginx --> InstallPM2: Nginx ✓
+    InstallPM2 --> Docker: PM2 ✓
+    
+    Docker --> Security: Skip Docker
+    Docker --> InstallDocker: Install Docker
+    InstallDocker --> Security: Docker ✓
+    
+    Security --> HealthCheck: Apply Hardening
+    HealthCheck --> Report: Verify Services
+    Report --> Notify: Generate Report
+    Notify --> Complete: Send Alerts
+    
+    Complete --> [*]: ✅ Success
+    Error --> [*]: ✗ Failed
 ```
+
+</div>
+
+### 🎯 Component Architecture
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### **🎨 Presentation Layer**
+
+```
+colors.sh
+├── Color definitions
+├── Text formatting
+├── Progress bars
+├── Status indicators
+└── UI components
+```
+
+**Features:**
+- 16 color palette
+- Bold/dim/underline styles
+- Spinner animations
+- Box drawing characters
+
+</td>
+<td width="50%" valign="top">
+
+#### **📝 Logging Layer**
+
+```
+logger.sh
+├── Log levels (DEBUG|INFO|WARN|ERROR)
+├── Timestamp formatting
+├── File rotation
+├── Console output
+└── Error tracking
+```
+
+**Features:**
+- Structured JSON logs
+- Automatic rotation
+- Log compression
+- Error aggregation
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### **🔧 Utility Layer**
+
+```
+utils.sh
+├── System detection
+├── Package management
+├── File operations
+├── Network utilities
+└── Validation functions
+```
+
+**50+ Functions:**
+- OS detection
+- Version comparison
+- Port checking
+- Service management
+
+</td>
+<td width="50%" valign="top">
+
+#### **⚙️ Configuration Layer**
+
+```
+config.sh
+├── Profile loading
+├── JSON parsing
+├── Environment setup
+├── Validation
+└── Defaults
+```
+
+**Features:**
+- Multi-profile support
+- JSON schema validation
+- Environment detection
+- Override system
+
+</td>
+</tr>
+</table>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=linux" width="24"/> Security
+## 🔒 Security
 
-### Hardening Applied
+<div align="center">
 
-<img src="https://skillicons.dev/icons?i=linux,bash" width="80"/>
+### 🛡️ Multi-Layer Security Architecture
 
-- **UFW Firewall**: Only ports 22, 80, 443, 27017 open
-- **Fail2ban**: Protection against SSH brute-force attacks
-- **SSH Hardening**:
-  - Disable root login
-  - Disable password authentication (key-only)
-  - Custom SSH port (optional)
-- **Automatic Updates**: Unattended security patches
-- **MongoDB**: Authentication required, bind to localhost only
-- **Nginx**: Security headers enabled (X-Frame-Options, CSP, HSTS, etc.)
-- **System Limits**: Optimized file descriptors and process limits
+```mermaid
+graph TB
+    subgraph "🌐 Network Layer"
+        A[UFW Firewall]
+        B[Fail2ban]
+    end
+    
+    subgraph "🔐 Application Layer"
+        C[MongoDB Auth]
+        D[SSH Hardening]
+        E[Nginx Headers]
+    end
+    
+    subgraph "🖥️ System Layer"
+        F[Auto Updates]
+        G[System Limits]
+        H[Audit Logs]
+    end
+    
+    A & B --> C & D & E
+    C & D & E --> F & G & H
+    F & G & H --> I[✅ Secured Server]
+    
+    style I fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+```
 
-### Security Checklist
+</div>
 
-After installation, review the security checklist:
+### 🔐 Security Hardening Applied
+
+<details open>
+<summary><b>🔥 Network Security</b></summary>
+
+**UFW Firewall Configuration:**
 
 ```bash
+# Default policies
+ufw default deny incoming
+ufw default allow outgoing
+
+# Allowed ports
+ufw allow 22/tcp    # SSH
+ufw allow 80/tcp    # HTTP
+ufw allow 443/tcp   # HTTPS
+ufw allow 27017/tcp # MongoDB (localhost only)
+
+# Rate limiting
+ufw limit 22/tcp
+```
+
+**Fail2ban Protection:**
+
+```ini
+[sshd]
+enabled = true
+maxretry = 3
+findtime = 600
+bantime = 3600
+```
+
+</details>
+
+<details>
+<summary><b>🔑 Authentication & Access</b></summary>
+
+**SSH Hardening:**
+
+```bash
+# /etc/ssh/sshd_config
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+X11Forwarding no
+MaxAuthTries 3
+```
+
+**MongoDB Authentication:**
+
+```javascript
+// Required authentication
+security:
+  authorization: enabled
+
+// Admin user
+db.createUser({
+  user: "admin",
+  pwd: "[secure-random-password]",
+  roles: ["userAdminAnyDatabase", "readWriteAnyDatabase"]
+})
+```
+
+</details>
+
+<details>
+<summary><b>🌐 Web Security Headers</b></summary>
+
+**Nginx Security Headers:**
+
+```nginx
+# Security headers
+add_header X-Frame-Options "SAMEORIGIN" always;
+add_header X-Content-Type-Options "nosniff" always;
+add_header X-XSS-Protection "1; mode=block" always;
+add_header Referrer-Policy "no-referrer-when-downgrade" always;
+add_header Content-Security-Policy "default-src 'self' http: https: data: blob: 'unsafe-inline'" always;
+
+# HSTS (only with SSL)
+add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+```
+
+</details>
+
+<details>
+<summary><b>📦 System Security</b></summary>
+
+**Automatic Updates:**
+
+```bash
+# Unattended security updates
+apt-get install -y unattended-upgrades
+dpkg-reconfigure -plow unattended-upgrades
+```
+
+**System Limits:**
+
+```bash
+# /etc/security/limits.conf
+* soft nofile 65536
+* hard nofile 65536
+* soft nproc 32768
+* hard nproc 32768
+```
+
+</details>
+
+### ✅ Post-Installation Security Checklist
+
+<div align="center">
+
+| Task | Priority | Status |
+|:-----|:--------:|:------:|
+| Change default MongoDB password | 🔴 Critical | ⬜ |
+| Setup SSH key authentication | 🔴 Critical | ⬜ |
+| Configure automatic backups | 🟡 High | ⬜ |
+| Enable monitoring & alerting | 🟡 High | ⬜ |
+| Review firewall rules | 🟢 Medium | ⬜ |
+| Test disaster recovery | 🟢 Medium | ⬜ |
+| Setup SSL certificates | 🔴 Critical | ✅ |
+| Enable audit logging | 🟡 High | ✅ |
+
+</div>
+
+<details>
+<summary><b>📋 View complete security checklist</b></summary>
+
+```bash
+# Generated at: /var/log/elite-setup/security-checklist.txt
 cat /var/log/elite-setup/security-checklist.txt
 ```
 
+<<<<<<< HEAD
 **Recommended Actions:**
 
 1. Change default MongoDB admin password
@@ -760,55 +1566,195 @@ cat /var/log/elite-setup/security-checklist.txt
 4. Enable monitoring and alerting
 5. Review firewall rules
 6. Test disaster recovery procedures
+=======
+**Recommended actions:**
+1. 🔑 **Change MongoDB admin password** immediately
+2. 🔐 **Setup SSH keys** and disable password auth
+3. 💾 **Configure automated backups** (daily recommended)
+4. 📊 **Enable monitoring** (Prometheus, Grafana, or similar)
+5. 🔥 **Review firewall rules** for your specific needs
+6. 🧪 **Test disaster recovery** procedures
+7. 📧 **Setup email alerts** for critical events
+8. 🔒 **Review SSL configuration** and certificate renewal
+
+</details>
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Contributing
+## 🤝 Contributing
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode" width="120"/>
+<div align="center">
 
-Contributions are welcome! Please follow these steps:
+### 💡 Help Us Improve Elite Server Setup!
 
-### Development Setup
+<img src="https://skillicons.dev/icons?i=git,github,vscode,bash" width="160"/>
+
+We welcome contributions from the community!
+
+</div>
+
+### 🚀 Getting Started
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### **1️⃣ Fork & Clone**
 
 ```bash
-# Clone the repository
-git clone https://github.com/naveed-gung/elite-server-setup.git
+# Fork on GitHub, then clone
+git clone https://github.com/\
+YOUR_USERNAME/elite-server-setup.git
+
 cd elite-server-setup
+```
 
-# Run validation tests
-./quick-test.sh
+#### **2️⃣ Create Branch**
 
-# Make your changes
-# ...
+```bash
+# Create feature branch
+git checkout -b feature/amazing-feature
+```
 
-# Test your changes
+#### **3️⃣ Make Changes**
+
+```bash
+# Edit files
+nano lib/installer.sh
+
+# Test changes
 ./quick-test.sh --verbose
 ```
 
-### Contribution Guidelines
+</td>
+<td width="50%" valign="top">
 
-1. **Fork** the repository
-2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
-3. **Commit** your changes: `git commit -m 'Add amazing feature'`
-4. **Push** to the branch: `git push origin feature/amazing-feature`
-5. **Open** a Pull Request
+#### **4️⃣ Commit Changes**
 
-### Code Standards
+```bash
+# Stage changes
+git add .
 
-- Follow existing code style and conventions
+# Commit with message
+git commit -m "Add: Amazing feature"
+```
+
+#### **5️⃣ Push & PR**
+
+```bash
+# Push to your fork
+git push origin feature/amazing-feature
+
+# Open Pull Request on GitHub
+```
+
+#### **6️⃣ Code Review**
+
+- Wait for maintainer review
+- Address feedback
+- Merge when approved! 🎉
+
+</td>
+</tr>
+</table>
+
+### 📝 Contribution Guidelines
+
+<details open>
+<summary><b>Code Standards</b></summary>
+
+✅ **Follow existing code style**
+- Use 4-space indentation
 - Add comments for complex logic
-- Update documentation for new features
-- Ensure all tests pass before submitting PR
-- Keep commits atomic and well-described
+- Keep functions under 50 lines
+- Use meaningful variable names
+
+✅ **Write tests**
+- Add tests for new features
+- Ensure all tests pass
+- Maintain test coverage
+
+✅ **Update documentation**
+- Update README for new features
+- Add inline code comments
+- Include usage examples
+
+✅ **Commit message format**
+```
+Type: Short description
+
+Longer description if needed
+
+- Bullet points for details
+- Reference issues: #123
+```
+
+**Types:** `Add`, `Fix`, `Update`, `Remove`, `Refactor`, `Docs`, `Test`
+
+</details>
+
+<details>
+<summary><b>What to Contribute</b></summary>
+
+**🐛 Bug Fixes**
+- Fix reported issues
+- Improve error handling
+- Edge case coverage
+
+**✨ New Features**
+- Additional installers
+- New configuration options
+- Enhanced security features
+
+**📖 Documentation**
+- Improve README
+- Add tutorials
+- Fix typos
+
+**🧪 Tests**
+- Add test coverage
+- Integration tests
+- Performance tests
+
+**🎨 UI/UX**
+- Better terminal output
+- Progress indicators
+- Error messages
+
+</details>
+
+<details>
+<summary><b>Development Setup</b></summary>
+
+```bash
+# Install development dependencies
+sudo apt-get install -y shellcheck
+
+# Run linter
+shellcheck setup.sh lib/*.sh
+
+# Run validation suite
+./quick-test.sh --verbose
+
+# Test in container (recommended)
+docker run -it --rm -v $(pwd):/app ubuntu:22.04 bash
+cd /app && ./setup.sh --profile=development
+```
+
+</details>
 
 ---
 
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> License
+## 📄 License
 
-<img src="https://skillicons.dev/icons?i=linux" width="40"/>
+<div align="center">
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+### MIT License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+</div>
 
 ```
 MIT License
@@ -824,10 +1770,19 @@ furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
 
+<<<<<<< HEAD
 ## <img src="https://skillicons.dev/icons?i=github" width="24"/> Credits & Acknowledgments
 
 **Created by: [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
@@ -865,30 +1820,212 @@ Special thanks to the open-source community and the amazing tools that make this
 ---
 
 ## <img src="https://skillicons.dev/icons?i=stackoverflow" width="24"/> Support
+=======
+## 🙏 Credits & Acknowledgments
+>>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
 <div align="center">
 
-### Need Help?
+**Created with ❤️ by [naveed-gung](https://github.com/naveed-gung)**
 
-<img src="https://skillicons.dev/icons?i=github,stackoverflow,discord" width="120"/>
+<img src="https://skillicons.dev/icons?i=nodejs,mongodb,nginx,docker,react,express,bash,linux,git,github,vscode" width="440"/>
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/naveed-gung/elite-server-setup/issues)
-- **Documentation**: This README + inline code comments
-- **Discussions**: [Join the community](https://github.com/naveed-gung/elite-server-setup/discussions)
+### 🌟 Built With Amazing Open Source Tools
 
-### Show Your Support
+</div>
 
-If this project helped you, please ⭐ **star this repository** and share it with others!
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48"/>
+<br><b>Node.js</b>
+<br><sub>JavaScript Runtime</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=mongodb" width="48"/>
+<br><b>MongoDB</b>
+<br><sub>NoSQL Database</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=nginx" width="48"/>
+<br><b>Nginx</b>
+<br><sub>Web Server</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=docker" width="48"/>
+<br><b>Docker</b>
+<br><sub>Containers</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://skillicons.dev/icons?i=linux" width="48"/>
+<br><b>Linux</b>
+<br><sub>Operating System</sub>
+</td>
+</tr>
+</table>
 
-[![GitHub stars](https://img.shields.io/github/stars/naveed-gung/elite-server-setup?style=social)](https://github.com/naveed-gung/elite-server-setup)
-[![GitHub forks](https://img.shields.io/github/forks/naveed-gung/elite-server-setup?style=social)](https://github.com/naveed-gung/elite-server-setup/fork)
+**Special thanks to:**
+- 🚀 **Node.js Foundation** - JavaScript runtime excellence
+- 🍃 **MongoDB Inc.** - Powerful NoSQL database platform
+- 🌐 **Nginx Team** - High-performance web server
+- ⚡ **Unitech** - PM2 process management
+- 🔐 **Let's Encrypt** - Free SSL certificates for everyone
+- 🐧 **Linux Community** - Foundation of open source
+- 🎨 **Skill Icons** - Beautiful technology icons
+- 💡 **Open Source Community** - For making this possible
 
 ---
 
-**Ready to deploy?** Start with: `sudo ./setup.sh`
+## 📊 Changelog
+
+<details>
+<summary><b>v1.0.0 (2025-10-12) - Initial Release 🎉</b></summary>
+
+### ✨ Features
+
+**Core Functionality:**
+- ✅ Full MERN infrastructure automation
+- ✅ Multi-OS support (Ubuntu, Debian, CentOS, RHEL)
+- ✅ Interactive + non-interactive modes
+- ✅ Configuration profiles (dev/staging/prod)
+
+**Components:**
+- ✅ Node.js 20.x LTS installation
+- ✅ MongoDB 7.0+ with authentication
+- ✅ Nginx with SSL/TLS support
+- ✅ PM2 process manager
+- ✅ Optional Docker installation
+
+**Security:**
+- ✅ UFW firewall configuration
+- ✅ Fail2ban brute-force protection
+- ✅ SSH hardening
+- ✅ Automatic security updates
+- ✅ MongoDB authentication
+- ✅ Nginx security headers
+
+**Operations:**
+- ✅ Health monitoring & reporting
+- ✅ Multi-channel notifications
+- ✅ Backup & rollback system
+- ✅ Professional validation suite
+
+**Documentation:**
+- ✅ Comprehensive README
+- ✅ Inline code comments
+- ✅ Usage examples
+- ✅ Troubleshooting guide
+
+**Quality:**
+- ✅ 3,850+ lines of code
+- ✅ 85+ validation tests
+- ✅ Enterprise-grade architecture
+- ✅ Production-ready
+
+</details>
+
+---
+
+## 💬 Support
+
+<div align="center">
+
+### 🆘 Need Help? We're Here!
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=github" width="64"/>
+<br><br>
+<b>GitHub Issues</b>
+<br><sub>Report bugs or request features</sub>
+<br><br>
+<a href="https://github.com/naveed-gung/elite-server-setup/issues">
+<img src="https://img.shields.io/github/issues/naveed-gung/elite-server-setup?style=for-the-badge" alt="Issues"/>
+</a>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=stackoverflow" width="64"/>
+<br><br>
+<b>Documentation</b>
+<br><sub>Complete guides & tutorials</sub>
+<br><br>
+<a href="#-table-of-contents">
+<img src="https://img.shields.io/badge/Docs-Read%20Now-blue?style=for-the-badge" alt="Docs"/>
+</a>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=discord" width="64"/>
+<br><br>
+<b>Community</b>
+<br><sub>Join our discussions</sub>
+<br><br>
+<a href="https://github.com/naveed-gung/elite-server-setup/discussions">
+<img src="https://img.shields.io/github/discussions/naveed-gung/elite-server-setup?style=for-the-badge" alt="Discussions"/>
+</a>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=twitter" width="64"/>
+<br><br>
+<b>Updates</b>
+<br><sub>Follow for latest news</sub>
+<br><br>
+<a href="https://github.com/naveed-gung">
+<img src="https://img.shields.io/github/followers/naveed-gung?style=for-the-badge&logo=github" alt="Follow"/>
+</a>
+</td>
+</tr>
+</table>
+
+### 🌟 Show Your Support
+
+**If this project helped you, please:**
+
+<a href="https://github.com/naveed-gung/elite-server-setup">
+<img src="https://img.shields.io/github/stars/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Stars"/>
+</a>
+<a href="https://github.com/naveed-gung/elite-server-setup/fork">
+<img src="https://img.shields.io/github/forks/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Forks"/>
+</a>
+<a href="https://github.com/naveed-gung/elite-server-setup/watchers">
+<img src="https://img.shields.io/github/watchers/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Watchers"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🚀 Ready to Deploy?
+
+### Start with one simple command:
+
+```bash
+sudo ./setup.sh
+```
+
+<br>
 
 **Made with ❤️ by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
-<img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github" width="400"/>
+<img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github,vscode" width="440"/>
+
+<br><br>
+
+---
+
+### 📈 Project Stats
+
+<img src="https://img.shields.io/github/repo-size/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Repo Size"/>
+<img src="https://img.shields.io/github/languages/top/naveed-gung/elite-server-setup?style=for-the-badge&logo=gnubash" alt="Top Language"/>
+<img src="https://img.shields.io/github/last-commit/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Last Commit"/>
+<img src="https://img.shields.io/github/license/naveed-gung/elite-server-setup?style=for-the-badge" alt="License"/>
+
+<br>
+
+**⭐ Star us on GitHub — it motivates us a lot!**
+
+[⬆ Back to top](#-elite-auto-server-setup)
 
 </div>
