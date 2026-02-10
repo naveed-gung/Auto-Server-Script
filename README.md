@@ -1651,27 +1651,27 @@ Longer description if needed
 <details>
 <summary><b>What to Contribute</b></summary>
 
-** Bug Fixes**
+**Bug Fixes**
 - Fix reported issues
 - Improve error handling
 - Edge case coverage
 
-** New Features**
+**New Features**
 - Additional installers
 - New configuration options
 - Enhanced security features
 
-** Documentation**
+**Documentation**
 - Improve README
 - Add tutorials
 - Fix typos
 
-** Tests**
+**Tests**
 - Add test coverage
 - Integration tests
 - Performance tests
 
-** UI/UX**
+**UI/UX**
 - Better terminal output
 - Progress indicators
 - Error messages
@@ -1936,7 +1936,7 @@ sudo ./setup.sh
 
 <br>
 
-**Made with by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
+**Made with passion by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
 <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github,vscode" width="440"/>
 
@@ -1953,7 +1953,7 @@ sudo ./setup.sh
 
 <br>
 
-** Star us on GitHub — it motivates us a lot!**
+**Star us on GitHub — it motivates us a lot!**
 
 [⬆ Back to top](#-elite-auto-server-setup)
 
