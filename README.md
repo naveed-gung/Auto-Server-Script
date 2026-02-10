@@ -1,28 +1,28 @@
 <div align="center">
 
+<img src="logo.svg" alt="Elite Auto Server Setup Logo" width="150" height="150">
+
 <!-- Hero Section with Animated SVG Background Concept -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.png">
-  <img src="assets/image.png" alt="Elite Auto Server Setup" width="100%">
+<source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.png">
+<source media="(prefers-color-scheme: light)" srcset="assets/hero-light.png">
+<img src="assets/image.png" alt="Elite Auto Server Setup" width="100%">
 </picture>
 
-# 🚀 Elite Auto Server Setup
+# Elite Auto Server Setup
 
 ### Zero-Touch Production Server Provisioning for MERN Stack
 
 <div align="center">
 
-<<<<<<< HEAD
 **Created by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
-=======
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 [![Bash](https://img.shields.io/badge/Bash-5.0+-4EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
 [![Platform](https://img.shields.io/badge/Platform-Linux-FCC624.svg?style=for-the-badge&logo=linux&logoColor=black)](https://www.linux.org/)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-00C853.svg?style=for-the-badge)](https://github.com/naveed-gung/elite-server-setup)
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
-**Created by [naveed-gung](https://github.com/naveed-gung)** • [⭐ Star](https://github.com/naveed-gung/elite-server-setup) • [🐛 Issues](https://github.com/naveed-gung/elite-server-setup/issues) • [💬 Discussions](https://github.com/naveed-gung/elite-server-setup/discussions)
+**Created by [naveed-gung](https://github.com/naveed-gung)** • Star • Issues • Discussions
 
 </div>
 
@@ -63,30 +63,30 @@
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 <details open>
 <summary><b>Click to expand/collapse</b></summary>
 
-- [🎯 Overview](#-overview)
-- [✨ Features](#-features)
-- [🚀 Quick Start](#-quick-start)
-- [⚙️ Configuration](#️-configuration)
-- [📦 Post-Installation](#-post-installation-deploy-your-mern-application)
-- [🔧 Maintenance](#-maintenance--operations)
-- [🧪 Testing](#-testing--validation)
-- [🛠️ Troubleshooting](#️-troubleshooting)
-- [🏗️ Architecture](#️-project-architecture)
-- [🔒 Security](#-security)
-- [🤝 Contributing](#-contributing)
-- [📄 License](#-license)
-- [🙏 Credits](#-credits--acknowledgments)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Configuration](#-configuration)
+- [Post-Installation](#-post-installation-deploy-your-mern-application)
+- [Maintenance](#-maintenance--operations)
+- [Testing](#-testing--validation)
+- [Troubleshooting](#-troubleshooting)
+- [Architecture](#-project-architecture)
+- [Security](#-security)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Credits](#-credits--acknowledgments)
 
 </details>
 
 ---
 
-## 🎯 Overview
+## Overview
 
 > **Elite Auto Server Setup** is an enterprise-grade automation tool that provisions complete MERN infrastructure with zero human intervention. Deploy production-ready servers in minutes, not hours.
 
@@ -94,63 +94,61 @@
 
 ```mermaid
 graph LR
-    A[🖥️ Fresh Server] -->|One Command| B[⚡ Elite Setup]
-    B --> C[✅ Production Ready]
-    
-    style A fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
-    style B fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
-    style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+A[Fresh Server] -->|One Command| B[Elite Setup]
+B --> C[Production Ready]
+
+style A fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
+style B fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+style C fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
 ```
 
-<<<<<<< HEAD
-| Component                                                                  | Version  | Purpose                             |
+| Component | Version | Purpose |
 | -------------------------------------------------------------------------- | -------- | ----------------------------------- |
-| <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> **Node.js**  | 20.x LTS | JavaScript runtime (via NodeSource) |
-| <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> **MongoDB** | 7.0+     | NoSQL database (Community Edition)  |
-| <img src="https://skillicons.dev/icons?i=nginx" width="16"/> **Nginx**     | Latest   | Reverse proxy + SSL termination     |
-| **PM2**                                                                    | Latest   | Process manager with clustering     |
-| <img src="https://skillicons.dev/icons?i=docker" width="16"/> **Docker**   | Latest   | Container runtime (optional)        |
-| **Certbot**                                                                | Latest   | Let's Encrypt SSL automation        |
-=======
-</div>
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
+| <img src="https://skillicons.dev/icons?i=nodejs" width="16"/> **Node.js** | 20.x LTS | JavaScript runtime (via NodeSource) |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="16"/> **MongoDB** | 7.0+ | NoSQL database (Community Edition) |
+| <img src="https://skillicons.dev/icons?i=nginx" width="16"/> **Nginx** | Latest | Reverse proxy + SSL termination |
+| **PM2** | Latest | Process manager with clustering |
+| <img src="https://skillicons.dev/icons?i=docker" width="16"/> **Docker** | Latest | Container runtime (optional) |
+| **Certbot** | Latest | Let's Encrypt SSL automation |
 
-### 🎨 What This Tool Does
+</div>
+
+### What This Tool Does
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🛠️ **Server Infrastructure**
+#### **Server Infrastructure**
 
 ```bash
-✓ Node.js 20.x LTS + npm/npx
-✓ MongoDB 7.0+ (authenticated)
-✓ Nginx (reverse proxy + SSL)
-✓ PM2 (process manager)
-✓ Docker + Compose (optional)
-✓ Certbot (Let's Encrypt SSL)
+ Node.js 20.x LTS + npm/npx
+ MongoDB 7.0+ (authenticated)
+ Nginx (reverse proxy + SSL)
+ PM2 (process manager)
+ Docker + Compose (optional)
+ Certbot (Let's Encrypt SSL)
 ```
 
 </td>
 <td width="50%" valign="top">
 
-#### 🔒 **Security Hardening**
+#### **Security Hardening**
 
 ```bash
-✓ UFW Firewall configuration
-✓ Fail2ban brute-force protection
-✓ SSH hardening (key-only auth)
-✓ Automatic security updates
-✓ MongoDB authentication
-✓ Nginx security headers
+ UFW Firewall configuration
+ Fail2ban brute-force protection
+ SSH hardening (key-only auth)
+ Automatic security updates
+ MongoDB authentication
+ Nginx security headers
 ```
 
 </td>
 </tr>
 </table>
 
-### 🎭 What You Deploy After
+### What You Deploy After
 
 <div align="center">
 
@@ -163,32 +161,32 @@ graph LR
 
 ---
 
-## ✨ Features
+## Features
 
 <details open>
-<summary><b>🤖 Intelligent Automation</b></summary>
+<summary><b> Intelligent Automation</b></summary>
 
 <br>
 
 <table>
 <tr>
-<td width="50">🔍</td>
+<td width="50"></td>
 <td><b>Pre-flight System Checks</b><br>Validates OS compatibility, disk space, ports, and services before installation</td>
 </tr>
 <tr>
-<td width="50">🎨</td>
+<td width="50"></td>
 <td><b>Interactive CLI Wizard</b><br>Beautiful color-coded interface with real-time progress tracking</td>
 </tr>
 <tr>
-<td width="50">🤖</td>
+<td width="50"></td>
 <td><b>Non-Interactive Mode</b><br>JSON configuration support for CI/CD pipelines and automation</td>
 </tr>
 <tr>
-<td width="50">♻️</td>
+<td width="50"></td>
 <td><b>Idempotent Operations</b><br>Safe to run multiple times without conflicts or duplicates</td>
 </tr>
 <tr>
-<td width="50">↩️</td>
+<td width="50"></td>
 <td><b>Automatic Rollback</b><br>Reverts changes on failure with detailed logging and recovery</td>
 </tr>
 </table>
@@ -196,7 +194,7 @@ graph LR
 </details>
 
 <details>
-<summary><b>🔧 Technology Stack</b></summary>
+<summary><b> Technology Stack</b></summary>
 
 <br>
 
@@ -204,58 +202,58 @@ graph LR
 
 | Component | Version | Purpose | Status |
 |:---------:|:-------:|:--------|:------:|
-| <img src="https://skillicons.dev/icons?i=nodejs" width="20"/> **Node.js** | 20.x LTS | JavaScript runtime via NodeSource | ✅ |
-| <img src="https://skillicons.dev/icons?i=mongodb" width="20"/> **MongoDB** | 7.0+ | NoSQL database (Community Edition) | ✅ |
-| <img src="https://skillicons.dev/icons?i=nginx" width="20"/> **Nginx** | Latest | Reverse proxy + SSL termination | ✅ |
-| **PM2** | Latest | Process manager with clustering | ✅ |
-| <img src="https://skillicons.dev/icons?i=docker" width="20"/> **Docker** | Latest | Container runtime (optional) | ⚙️ |
-| **Certbot** | Latest | Let's Encrypt SSL automation | ✅ |
+| <img src="https://skillicons.dev/icons?i=nodejs" width="20"/> **Node.js** | 20.x LTS | JavaScript runtime via NodeSource | |
+| <img src="https://skillicons.dev/icons?i=mongodb" width="20"/> **MongoDB** | 7.0+ | NoSQL database (Community Edition) | |
+| <img src="https://skillicons.dev/icons?i=nginx" width="20"/> **Nginx** | Latest | Reverse proxy + SSL termination | |
+| **PM2** | Latest | Process manager with clustering | |
+| <img src="https://skillicons.dev/icons?i=docker" width="20"/> **Docker** | Latest | Container runtime (optional) | |
+| **Certbot** | Latest | Let's Encrypt SSL automation | |
 
 </div>
 
 </details>
 
 <details>
-<summary><b>🔒 Security Hardening</b></summary>
+<summary><b> Security Hardening</b></summary>
 
 <br>
 
 ```mermaid
 graph TD
-    A[🔒 Security Layers] --> B[🔥 UFW Firewall]
-    A --> C[🛡️ Fail2ban]
-    A --> D[🔑 SSH Hardening]
-    A --> E[📦 Auto Updates]
-    A --> F[🔐 MongoDB Auth]
-    A --> G[🌐 Nginx Headers]
-    
-    B --> H[✅ Production Ready]
-    C --> H
-    D --> H
-    E --> H
-    F --> H
-    G --> H
-    
-    style A fill:#339af0,stroke:#1971c2,stroke-width:3px,color:#fff
-    style H fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+A[ Security Layers] --> B[ UFW Firewall]
+A --> C[ Fail2ban]
+A --> D[ SSH Hardening]
+A --> E[ Auto Updates]
+A --> F[ MongoDB Auth]
+A --> G[ Nginx Headers]
+
+B --> H[ Production Ready]
+C --> H
+D --> H
+E --> H
+F --> H
+G --> H
+
+style A fill:#339af0,stroke:#1971c2,stroke-width:3px,color:#fff
+style H fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
 ```
 
 <table>
 <tr>
 <td>
 
-- 🔥 **UFW Firewall** - Strict rules (22, 80, 443, 27017)
-- 🛡️ **Fail2ban** - Brute-force protection
-- 🔑 **SSH Hardening** - Key-only authentication
-- 📦 **Auto Updates** - Unattended security patches
+- **UFW Firewall** - Strict rules (22, 80, 443, 27017)
+- **Fail2ban** - Brute-force protection
+- **SSH Hardening** - Key-only authentication
+- **Auto Updates** - Unattended security patches
 
 </td>
 <td>
 
-- 🔐 **MongoDB Auth** - Required authentication
-- 🌐 **Nginx Headers** - X-Frame-Options, CSP, HSTS
-- 📊 **System Limits** - Optimized file descriptors
-- 📝 **Audit Logging** - Complete installation tracking
+- **MongoDB Auth** - Required authentication
+- **Nginx Headers** - X-Frame-Options, CSP, HSTS
+- **System Limits** - Optimized file descriptors
+- **Audit Logging** - Complete installation tracking
 
 </td>
 </tr>
@@ -264,7 +262,7 @@ graph TD
 </details>
 
 <details>
-<summary><b>🎯 Enterprise Features</b></summary>
+<summary><b> Enterprise Features</b></summary>
 
 <br>
 
@@ -272,15 +270,15 @@ graph TD
 
 ```ascii
 ┌─────────────────────────────────────────────────────────────┐
-│  📊 DEPLOYMENT REPORTS    │  🔔 NOTIFICATIONS             │
-│  ├─ HTML dashboard         │  ├─ Slack integration         │
-│  ├─ Text summaries         │  ├─ Discord webhooks          │
-│  └─ System information     │  └─ Email alerts              │
+│ DEPLOYMENT REPORTS │ NOTIFICATIONS │
+│ ├─ HTML dashboard │ ├─ Slack integration │
+│ ├─ Text summaries │ ├─ Discord webhooks │
+│ └─ System information │ └─ Email alerts │
 ├─────────────────────────────────────────────────────────────┤
-│  ⚙️ CONFIGURATION         │  💾 BACKUP & ROLLBACK         │
-│  ├─ Pre-defined profiles   │  ├─ Snapshot creation         │
-│  ├─ Custom JSON configs    │  ├─ One-click restoration     │
-│  └─ Multi-environment      │  └─ Version control           │
+│ CONFIGURATION │ BACKUP & ROLLBACK │
+│ ├─ Pre-defined profiles │ ├─ Snapshot creation │
+│ ├─ Custom JSON configs │ ├─ One-click restoration │
+│ └─ Multi-environment │ └─ Version control │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -290,9 +288,9 @@ graph TD
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
-### 📋 Prerequisites
+### Prerequisites
 
 <div align="center">
 
@@ -305,13 +303,13 @@ graph TD
 
 </div>
 
-### 🎬 Installation Methods
+### Installation Methods
 
 <table>
 <tr>
 <td width="33%" align="center">
 
-#### 🖱️ Method 1
+#### Method 1
 **Interactive Mode**
 <br><sub>Recommended for first-time users</sub>
 
@@ -326,28 +324,28 @@ sudo ./setup.sh
 </td>
 <td width="33%" align="center">
 
-#### ⚡ Method 2
+#### Method 2
 **Quick Production**
 <br><sub>Fast deployment with SSL</sub>
 
 ```bash
 sudo ./setup.sh \
-  --profile=production \
-  --domain=api.yourdomain.com \
-  --ssl-email=admin@example.com
+--profile=production \
+--domain=api.yourdomain.com \
+--ssl-email=admin@example.com
 ```
 
 </td>
 <td width="33%" align="center">
 
-#### 🤖 Method 3
+#### Method 3
 **CI/CD Pipeline**
 <br><sub>Automated deployment</sub>
 
 ```bash
 sudo ./setup.sh \
-  --config=config/production.json \
-  --silent
+--config=config/production.json \
+--silent
 ```
 
 </td>
@@ -356,32 +354,32 @@ sudo ./setup.sh \
 
 <div align="center">
 
-### 📹 Installation Demo
+### Installation Demo
 
 ```mermaid
 sequenceDiagram
-    participant U as User
-    participant S as Setup Script
-    participant SYS as System
-    
-    U->>S: Run ./setup.sh
-    S->>SYS: Pre-flight checks ✓
-    S->>SYS: Install Node.js ✓
-    S->>SYS: Install MongoDB ✓
-    S->>SYS: Install Nginx ✓
-    S->>SYS: Apply Security ✓
-    S->>U: ✅ Setup Complete!
+participant U as User
+participant S as Setup Script
+participant SYS as System
+
+U->>S: Run ./setup.sh
+S->>SYS: Pre-flight checks 
+S->>SYS: Install Node.js 
+S->>SYS: Install MongoDB 
+S->>SYS: Install Nginx 
+S->>SYS: Apply Security 
+S->>U: Setup Complete!
 ```
 
 </div>
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 <div align="center">
 
-### 📝 Command-Line Options
+### Command-Line Options
 
 </div>
 
@@ -389,61 +387,54 @@ sequenceDiagram
 <summary><b>Core Options</b></summary>
 
 ```bash
-<<<<<<< HEAD
 Usage: ./setup.sh [OPTIONS]
 
 Core Options:
-  --profile=PROFILE          Use predefined profile (development|staging|production)
-  --config=FILE              Load configuration from JSON file
-  --mode=MODE                Installation mode (interactive|silent|unattended)
-  --silent                   Suppress all prompts (requires --config)
+--profile=PROFILE Use predefined profile (development|staging|production)
+--config=FILE Load configuration from JSON file
+--mode=MODE Installation mode (interactive|silent|unattended)
+--silent Suppress all prompts (requires --config)
 
 Component Selection:
-  --with-nodejs              Install Node.js (default: enabled)
-  --with-mongodb             Install MongoDB (default: enabled)
-  --with-nginx               Install Nginx (default: enabled)
-  --with-pm2                 Install PM2 (default: enabled)
-  --with-docker              Install Docker (default: disabled)
-  --skip-security            Skip security hardening (not recommended)
+--with-nodejs Install Node.js (default: enabled)
+--with-mongodb Install MongoDB (default: enabled)
+--with-nginx Install Nginx (default: enabled)
+--with-pm2 Install PM2 (default: enabled)
+--with-docker Install Docker (default: disabled)
+--skip-security Skip security hardening (not recommended)
 
 Network Configuration:
-  --domain=DOMAIN            Domain name for SSL configuration
-  --ssl-email=EMAIL          Email for Let's Encrypt certificates
-  --enable-ssl               Enable SSL/TLS with Let's Encrypt
+--domain=DOMAIN Domain name for SSL configuration
+--ssl-email=EMAIL Email for Let's Encrypt certificates
+--enable-ssl Enable SSL/TLS with Let's Encrypt
 
 Version Selection:
-  --node-version=VERSION     Node.js version (18|20|22, default: 20)
-  --mongodb-version=VERSION  MongoDB version (6.0|7.0, default: 7.0)
+--node-version=VERSION Node.js version (18|20|22, default: 20)
+--mongodb-version=VERSION MongoDB version (6.0|7.0, default: 7.0)
 
 Security Options:
-  --enable-firewall          Configure UFW firewall (default: production only)
-  --enable-fail2ban          Install Fail2ban protection (default: production only)
-  --harden-ssh               Harden SSH configuration (default: production only)
+--enable-firewall Configure UFW firewall (default: production only)
+--enable-fail2ban Install Fail2ban protection (default: production only)
+--harden-ssh Harden SSH configuration (default: production only)
 
 Notifications:
-  --slack-webhook=URL        Slack webhook for notifications
-  --discord-webhook=URL      Discord webhook for notifications
-  --email=ADDRESS            Email address for notifications
+--slack-webhook=URL Slack webhook for notifications
+--discord-webhook=URL Discord webhook for notifications
+--email=ADDRESS Email address for notifications
 
 Advanced Options:
-  --mongodb-auth             Enable MongoDB authentication (default: production only)
-  --mongodb-user=USERNAME    MongoDB admin username (default: admin)
-  --mongodb-pass=PASSWORD    MongoDB admin password (auto-generated if not set)
-  --backup-dir=PATH          Backup directory (default: /var/backups/elite-setup)
-  --log-level=LEVEL          Logging level (debug|info|warning|error)
+--mongodb-auth Enable MongoDB authentication (default: production only)
+--mongodb-user=USERNAME MongoDB admin username (default: admin)
+--mongodb-pass=PASSWORD MongoDB admin password (auto-generated if not set)
+--backup-dir=PATH Backup directory (default: /var/backups/elite-setup)
+--log-level=LEVEL Logging level (debug|info|warning|error)
 
 Utility Options:
-  --dry-run                  Show what would be installed without making changes
-  --force                    Force installation even if services exist
-  --cleanup                  Remove installation artifacts after completion
-  -h, --help                 Show this help message
-  -v, --version              Show version information
-=======
---profile=PROFILE          # development|staging|production
---config=FILE              # Load configuration from JSON file
---mode=MODE                # interactive|silent|unattended
---silent                   # Suppress all prompts (requires --config)
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
+--dry-run Show what would be installed without making changes
+--force Force installation even if services exist
+--cleanup Remove installation artifacts after completion
+-h, --help Show this help message
+-v, --version Show version information
 ```
 
 </details>
@@ -452,12 +443,12 @@ Utility Options:
 <summary><b>Component Selection</b></summary>
 
 ```bash
---with-nodejs              # Install Node.js (default: enabled)
---with-mongodb             # Install MongoDB (default: enabled)
---with-nginx               # Install Nginx (default: enabled)
---with-pm2                 # Install PM2 (default: enabled)
---with-docker              # Install Docker (default: disabled)
---skip-security            # Skip security hardening (not recommended)
+--with-nodejs # Install Node.js (default: enabled)
+--with-mongodb # Install MongoDB (default: enabled)
+--with-nginx # Install Nginx (default: enabled)
+--with-pm2 # Install PM2 (default: enabled)
+--with-docker # Install Docker (default: disabled)
+--skip-security # Skip security hardening (not recommended)
 ```
 
 </details>
@@ -466,9 +457,9 @@ Utility Options:
 <summary><b>Network Configuration</b></summary>
 
 ```bash
---domain=DOMAIN            # Domain name for SSL configuration
---ssl-email=EMAIL          # Email for Let's Encrypt certificates
---enable-ssl               # Enable SSL/TLS with Let's Encrypt
+--domain=DOMAIN # Domain name for SSL configuration
+--ssl-email=EMAIL # Email for Let's Encrypt certificates
+--enable-ssl # Enable SSL/TLS with Let's Encrypt
 ```
 
 </details>
@@ -477,8 +468,8 @@ Utility Options:
 <summary><b>Version Selection</b></summary>
 
 ```bash
---node-version=VERSION     # 18|20|22 (default: 20)
---mongodb-version=VERSION  # 6.0|7.0 (default: 7.0)
+--node-version=VERSION # 18|20|22 (default: 20)
+--mongodb-version=VERSION # 6.0|7.0 (default: 7.0)
 ```
 
 </details>
@@ -487,9 +478,9 @@ Utility Options:
 <summary><b>Security Options</b></summary>
 
 ```bash
---enable-firewall          # Configure UFW firewall
---enable-fail2ban          # Install Fail2ban protection
---harden-ssh               # Harden SSH configuration
+--enable-firewall # Configure UFW firewall
+--enable-fail2ban # Install Fail2ban protection
+--harden-ssh # Harden SSH configuration
 ```
 
 </details>
@@ -498,58 +489,49 @@ Utility Options:
 <summary><b>Notifications</b></summary>
 
 ```bash
---slack-webhook=URL        # Slack webhook for notifications
---discord-webhook=URL      # Discord webhook for notifications
---email=ADDRESS            # Email address for notifications
+--slack-webhook=URL # Slack webhook for notifications
+--discord-webhook=URL # Discord webhook for notifications
+--email=ADDRESS # Email address for notifications
 ```
 
 </details>
 
-### 🎨 Configuration Profiles
+### Configuration Profiles
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-#### 🔧 Development
+#### Development
 
 ```bash
 sudo ./setup.sh \
-  --profile=development
+--profile=development
 ```
 
 **Includes:**
-<<<<<<< HEAD
 
 - Node.js 20 + npm
 - MongoDB without authentication
 - Nginx without SSL
 - PM2 in single-instance mode
 - Minimal security (for local testing)
-=======
-- ✅ Node.js 20
-- ✅ MongoDB (no auth)
-- ✅ Nginx (no SSL)
-- ✅ PM2 single mode
-- ⚠️ Minimal security
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
 <sub>Perfect for local testing</sub>
 
 </td>
 <td width="33%" valign="top">
 
-#### 🚀 Production
+#### Production
 
 ```bash
 sudo ./setup.sh \
-  --profile=production \
-  --domain=yourapp.com \
-  --ssl-email=admin@yourapp.com
+--profile=production \
+--domain=yourapp.com \
+--ssl-email=admin@yourapp.com
 ```
 
 **Includes:**
-<<<<<<< HEAD
 
 - Node.js 20 + npm
 - MongoDB with authentication enabled
@@ -558,31 +540,24 @@ sudo ./setup.sh \
 - Full security hardening
 - Automatic updates enabled
 - Notifications enabled
-=======
-- ✅ Node.js 20
-- ✅ MongoDB (with auth)
-- ✅ Nginx (with SSL)
-- ✅ PM2 cluster mode
-- 🔒 Full security
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
 <sub>Production-ready setup</sub>
 
 </td>
 <td width="33%" valign="top">
 
-#### ⚙️ Custom JSON
+#### Custom JSON
 
 ```bash
 sudo ./setup.sh \
-  --config=config/custom.json
+--config=config/custom.json
 ```
 
 **Includes:**
-- ⚙️ Custom versions
-- ⚙️ Selective components
-- ⚙️ Advanced options
-- ⚙️ Fine-tuned security
+- Custom versions
+- Selective components
+- Advanced options
+- Fine-tuned security
 
 <sub>Maximum flexibility</sub>
 
@@ -591,44 +566,44 @@ sudo ./setup.sh \
 </table>
 
 <details>
-<summary><b>📄 Example: Custom JSON Configuration</b></summary>
+<summary><b> Example: Custom JSON Configuration</b></summary>
 
 ```json
 {
-  "profile": "production",
-  "nodejs": {
-    "enabled": true,
-    "version": "20"
-  },
-  "mongodb": {
-    "enabled": true,
-    "version": "7.0",
-    "auth": true,
-    "username": "admin",
-    "port": 27017
-  },
-  "nginx": {
-    "enabled": true,
-    "ssl": true,
-    "domain": "api.example.com",
-    "ssl_email": "admin@example.com"
-  },
-  "pm2": {
-    "enabled": true,
-    "instances": "max"
-  },
-  "docker": {
-    "enabled": false
-  },
-  "security": {
-    "firewall": true,
-    "fail2ban": true,
-    "ssh_hardening": true,
-    "auto_updates": true
-  },
-  "notifications": {
-    "slack_webhook": "https://hooks.slack.com/services/YOUR/WEBHOOK"
-  }
+"profile": "production",
+"nodejs": {
+"enabled": true,
+"version": "20"
+},
+"mongodb": {
+"enabled": true,
+"version": "7.0",
+"auth": true,
+"username": "admin",
+"port": 27017
+},
+"nginx": {
+"enabled": true,
+"ssl": true,
+"domain": "api.example.com",
+"ssl_email": "admin@example.com"
+},
+"pm2": {
+"enabled": true,
+"instances": "max"
+},
+"docker": {
+"enabled": false
+},
+"security": {
+"firewall": true,
+"fail2ban": true,
+"ssh_hardening": true,
+"auto_updates": true
+},
+"notifications": {
+"slack_webhook": "https://hooks.slack.com/services/YOUR/WEBHOOK"
+}
 }
 ```
 
@@ -636,21 +611,21 @@ sudo ./setup.sh \
 
 ---
 
-## 📦 Post-Installation: Deploy Your MERN Application
+## Post-Installation: Deploy Your MERN Application
 
 <div align="center">
 
 ```mermaid
 graph LR
-    A[✅ Installation<br/>Complete] --> B[📦 Upload<br/>Code]
-    B --> C[📥 Install<br/>Dependencies]
-    C --> D[⚙️ Configure<br/>Environment]
-    D --> E[🚀 Start with<br/>PM2]
-    E --> F[🌐 Setup<br/>Nginx]
-    F --> G[🎉 Live!]
-    
-    style A fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
-    style G fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
+A[ Installation<br/>Complete] --> B[ Upload<br/>Code]
+B --> C[ Install<br/>Dependencies]
+C --> D[ Configure<br/>Environment]
+D --> E[ Start with<br/>PM2]
+E --> F[ Setup<br/>Nginx]
+F --> G[ Live!]
+
+style A fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+style G fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
 ```
 
 </div>
@@ -661,7 +636,7 @@ graph LR
 <tr>
 <td width="50%" valign="top">
 
-#### **1️⃣ Verify Installation**
+#### ** Verify Installation**
 
 ```bash
 # Run health check
@@ -674,7 +649,7 @@ systemctl status nginx mongodb pm2
 cat /var/log/elite-setup/report.html
 ```
 
-#### **2️⃣ Upload Your Code**
+#### ** Upload Your Code**
 
 ```bash
 # Via Git (recommended)
@@ -685,18 +660,18 @@ git clone https://github.com/user/app.git
 scp -r my-app/ user@server:/var/www/
 ```
 
-#### **3️⃣ Install Dependencies**
+#### ** Install Dependencies**
 
 ```bash
 cd /var/www/your-app
 npm install --production
-npm run build  # If using frontend
+npm run build # If using frontend
 ```
 
 </td>
 <td width="50%" valign="top">
 
-#### **4️⃣ Configure Environment**
+#### ** Configure Environment**
 
 ```bash
 # Create .env file
@@ -711,7 +686,7 @@ EOF
 cat /root/.mongodb_credentials
 ```
 
-#### **5️⃣ Start with PM2**
+#### ** Start with PM2**
 
 ```bash
 # Start application
@@ -722,7 +697,7 @@ pm2 save
 pm2 startup
 ```
 
-#### **6️⃣ Configure Nginx**
+#### ** Configure Nginx**
 
 ```bash
 # Create site configuration
@@ -734,46 +709,42 @@ sudo nano /etc/nginx/sites-available/app
 </table>
 
 <details>
-<summary><b>📝 Example Nginx Configuration</b></summary>
+<summary><b> Example Nginx Configuration</b></summary>
 
 ```nginx
 server {
-    server_name yourdomain.com www.yourdomain.com;
-<<<<<<< HEAD
+server_name yourdomain.com www.yourdomain.com;
 
-    # Proxy to Node.js app
-=======
-    
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
-    location / {
-        proxy_pass http://localhost:3000;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_cache_bypass $http_upgrade;
-    }
+# Proxy to Node.js app
+location / {
+proxy_pass http://localhost:3000;
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection 'upgrade';
+proxy_set_header Host $host;
+proxy_set_header X-Real-IP $remote_addr;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_set_header X-Forwarded-Proto $scheme;
+proxy_cache_bypass $http_upgrade;
+}
 
-    listen 443 ssl;
-    ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+listen 443 ssl;
+ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+include /etc/letsencrypt/options-ssl-nginx.conf;
+ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
 }
 
 server {
-    if ($host = www.yourdomain.com) {
-        return 301 https://$host$request_uri;
-    }
-    if ($host = yourdomain.com) {
-        return 301 https://$host$request_uri;
-    }
-    listen 80;
-    server_name yourdomain.com www.yourdomain.com;
-    return 404;
+if ($host = www.yourdomain.com) {
+return 301 https://$host$request_uri;
+}
+if ($host = yourdomain.com) {
+return 301 https://$host$request_uri;
+}
+listen 80;
+server_name yourdomain.com www.yourdomain.com;
+return 404;
 }
 ```
 
@@ -788,7 +759,7 @@ sudo systemctl reload nginx
 </details>
 
 <details>
-<summary><b>🗄️ MongoDB Connection Setup</b></summary>
+<summary><b> MongoDB Connection Setup</b></summary>
 
 ```bash
 # Get credentials
@@ -800,46 +771,41 @@ mongosh "mongodb://admin:YOUR_PASSWORD@localhost:27017/?authSource=admin"
 # Create application database
 use myapp
 db.createUser({
-  user: "myappuser",
-  pwd: "secure_password",
-  roles: [{ role: "readWrite", db: "myapp" }]
+user: "myappuser",
+pwd: "secure_password",
+roles: [{ role: "readWrite", db: "myapp" }]
 })
 ```
 
 **Update connection string in your app:**
 
 ```javascript
-<<<<<<< HEAD
 // In your Node.js app
-const MONGODB_URI =
-  "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
-=======
 const MONGODB_URI = "mongodb://myappuser:secure_password@localhost:27017/myapp?authSource=myapp";
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 ```
 
 </details>
 
 ---
 
-## 🔧 Maintenance & Operations
+## Maintenance & Operations
 
 <div align="center">
 
-### 📊 Daily Operations Dashboard
+### Daily Operations Dashboard
 
 | Task | Command | Frequency |
 |:----:|:--------|:---------:|
-| 🏥 | **Health Check** | Daily |
-| 📝 | **View Logs** | As needed |
-| 🔄 | **Restart Services** | As needed |
-| 💾 | **Backup Data** | Weekly |
-| 🔐 | **SSL Renewal** | Auto (90 days) |
+| | **Health Check** | Daily |
+| | **View Logs** | As needed |
+| | **Restart Services** | As needed |
+| | **Backup Data** | Weekly |
+| | **SSL Renewal** | Auto (90 days) |
 
 </div>
 
 <details open>
-<summary><b>🏥 Health Monitoring</b></summary>
+<summary><b> Health Monitoring</b></summary>
 
 ```bash
 # Comprehensive health check
@@ -856,7 +822,7 @@ pm2 monit
 </details>
 
 <details>
-<summary><b>📝 Log Management</b></summary>
+<summary><b> Log Management</b></summary>
 
 <table>
 <tr>
@@ -894,20 +860,20 @@ pm2 logs app-name
 </details>
 
 <details>
-<summary><b>💾 Backup & Restore</b></summary>
+<summary><b> Backup & Restore</b></summary>
 
 **Create Backup:**
 
 ```bash
 # Backup MongoDB
 mongodump --uri="mongodb://admin:password@localhost:27017" \
-  --out=/backup/mongo-$(date +%Y%m%d)
+--out=/backup/mongo-$(date +%Y%m%d)
 
 # Backup configurations
 sudo tar -czf /backup/configs-$(date +%Y%m%d).tar.gz \
-  /etc/nginx \
-  /etc/mongod.conf \
-  /etc/systemd/system/pm2-*.service
+/etc/nginx \
+/etc/mongod.conf \
+/etc/systemd/system/pm2-*.service
 ```
 
 **Rollback Installation:**
@@ -920,7 +886,7 @@ sudo ./scripts/rollback.sh
 </details>
 
 <details>
-<summary><b>🔐 SSL Certificate Management</b></summary>
+<summary><b> SSL Certificate Management</b></summary>
 
 ```bash
 # Certificates auto-renew via certbot
@@ -938,11 +904,11 @@ sudo systemctl reload nginx
 
 ---
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 <div align="center">
 
-### 🎯 Comprehensive Validation Suite
+### Comprehensive Validation Suite
 
 </div>
 
@@ -954,77 +920,75 @@ sudo systemctl reload nginx
 ./quick-test.sh --verbose
 ```
 
-<<<<<<< HEAD
 **Test Coverage:**
 
-- ✅ File structure validation (20+ tests)
-- ✅ Bash syntax checking
-- ✅ JSON configuration validation
-- ✅ Security analysis (credentials, unsafe commands)
-- ✅ Code quality metrics (LOC, functions, modularity)
-- ✅ Documentation quality assessment
-- ✅ Integration & compatibility tests
-- ✅ Compliance & standards verification
-=======
+- File structure validation (20+ tests)
+- Bash syntax checking
+- JSON configuration validation
+- Security analysis (credentials, unsafe commands)
+- Code quality metrics (LOC, functions, modularity)
+- Documentation quality assessment
+- Integration & compatibility tests
+- Compliance & standards verification
+
 <details>
-<summary><b>📊 Test Coverage Matrix</b></summary>
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
+<summary><b>Test Coverage Matrix</b></summary>
 
 <div align="center">
 
 | Category | Tests | Status |
 |:---------|:-----:|:------:|
-| 📁 File Structure | 20+ | ✅ |
-| 🔍 Syntax Checking | 15+ | ✅ |
-| ⚙️ JSON Validation | 10+ | ✅ |
-| 🔒 Security Analysis | 25+ | ✅ |
-| 📏 Code Quality | 12+ | ✅ |
-| 📖 Documentation | 8+ | ✅ |
-| 🔗 Integration | 10+ | ✅ |
-| ✅ Compliance | 5+ | ✅ |
+| File Structure | 20+ | |
+| Syntax Checking | 15+ | |
+| JSON Validation | 10+ | |
+| Security Analysis | 25+ | |
+| Code Quality | 12+ | |
+| Documentation | 8+ | |
+| Integration | 10+ | |
+| Compliance | 5+ | |
 
 </div>
 
 </details>
 
 <details>
-<summary><b>📈 Example Test Output</b></summary>
+<summary><b> Example Test Output</b></summary>
 
 ```
 ╔═══════════════════════════════════════════════════╗
-║   ELITE AUTO SETUP - VALIDATION SUITE            ║
-║   Enterprise-Grade Testing Framework             ║
-║   Created by: naveed-gung                        ║
+║ ELITE AUTO SETUP - VALIDATION SUITE ║
+║ Enterprise-Grade Testing Framework ║
+║ Created by: naveed-gung ║
 ╚═══════════════════════════════════════════════════╝
 
 Platform: Linux
 Directory: /opt/elite-server-setup
 
 ═══════════════════════════════════════════════
-  1. FILE STRUCTURE VALIDATION
+1. FILE STRUCTURE VALIDATION
 ═══════════════════════════════════════════════
 
-[✓] Main script: setup.sh
-[✓] Documentation: README.md
-[✓] License file: LICENSE
-[✓] Library: lib/colors.sh (298 lines)
-[✓] Library: lib/logger.sh (377 lines)
+[] Main script: setup.sh
+[] Documentation: README.md
+[] License file: LICENSE
+[] Library: lib/colors.sh (298 lines)
+[] Library: lib/logger.sh (377 lines)
 
 ═══════════════════════════════════════════════
-  TEST SUMMARY
+TEST SUMMARY
 ═══════════════════════════════════════════════
 
-Total Tests:    85
-✓ Passed:       82
-✗ Failed:       0
-⚠ Warnings:     3
+Total Tests: 85
+ Passed: 82
+ Failed: 0
+ Warnings: 3
 
-Success Rate:   96.5%
+Success Rate: 96.5%
 [██████████████████████████████████████████████░░░]
 
 ╔═══════════════════════════════════════════════╗
-║        ✓ ALL TESTS PASSED!                    ║
-║   Project is production-ready                 ║
+║ ALL TESTS PASSED! ║
+║ Project is production-ready ║
 ╚═══════════════════════════════════════════════╝
 ```
 
@@ -1032,16 +996,16 @@ Success Rate:   96.5%
 
 ---
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 <div align="center">
 
-### 🔍 Common Issues & Solutions
+### Common Issues & Solutions
 
 </div>
 
 <details>
-<summary><b>🗄️ MongoDB Connection Failed</b></summary>
+<summary><b> MongoDB Connection Failed</b></summary>
 
 ```bash
 # Check MongoDB status
@@ -1058,15 +1022,15 @@ sudo systemctl restart mongodb
 ```
 
 **Common causes:**
-- ❌ Wrong credentials
-- ❌ Authentication database mismatch
-- ❌ Port 27017 blocked
-- ❌ MongoDB not started
+- Wrong credentials
+- Authentication database mismatch
+- Port 27017 blocked
+- MongoDB not started
 
 </details>
 
 <details>
-<summary><b>🌐 Nginx Configuration Error</b></summary>
+<summary><b> Nginx Configuration Error</b></summary>
 
 ```bash
 # Test configuration
@@ -1080,15 +1044,15 @@ sudo systemctl reload nginx
 ```
 
 **Common causes:**
-- ❌ Syntax errors in config
-- ❌ Certificate path issues
-- ❌ Port already in use
-- ❌ Incorrect server_name
+- Syntax errors in config
+- Certificate path issues
+- Port already in use
+- Incorrect server_name
 
 </details>
 
 <details>
-<summary><b>⚡ PM2 Process Crashes</b></summary>
+<summary><b> PM2 Process Crashes</b></summary>
 
 ```bash
 # View PM2 logs
@@ -1105,15 +1069,15 @@ pm2 monit
 ```
 
 **Common causes:**
-- ❌ Uncaught exceptions
-- ❌ Memory leaks
-- ❌ Port conflicts
-- ❌ Missing dependencies
+- Uncaught exceptions
+- Memory leaks
+- Port conflicts
+- Missing dependencies
 
 </details>
 
 <details>
-<summary><b>🔥 Firewall Blocking Connections</b></summary>
+<summary><b> Firewall Blocking Connections</b></summary>
 
 ```bash
 # Check UFW status
@@ -1127,16 +1091,16 @@ sudo ufw reload
 ```
 
 **Common causes:**
-- ❌ Port not allowed in UFW
-- ❌ Wrong protocol (TCP/UDP)
-- ❌ Application not listening
-- ❌ SELinux restrictions
+- Port not allowed in UFW
+- Wrong protocol (TCP/UDP)
+- Application not listening
+- SELinux restrictions
 
 </details>
 
 <div align="center">
 
-### 💡 Getting Help
+### Getting Help
 
 <table>
 <tr>
@@ -1159,61 +1123,61 @@ sudo ufw reload
 </table>
 
 **Before requesting help:**
-1. ✅ Check logs: `/var/log/elite-setup/setup.log`
-2. ✅ Run health check: `sudo ./scripts/health-check.sh`
-3. ✅ Review report: `/var/log/elite-setup/report.html`
-4. ✅ Include error messages in your issue
+1. Check logs: `/var/log/elite-setup/setup.log`
+2. Run health check: `sudo ./scripts/health-check.sh`
+3. Review report: `/var/log/elite-setup/report.html`
+4. Include error messages in your issue
 
 </div>
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 <div align="center">
 
 ```mermaid
 graph TB
-    subgraph "📦 Elite Server Setup"
-        A[setup.sh<br/>336 lines]
-        B[quick-test.sh<br/>Validation]
-    end
-    
-    subgraph "📚 Core Libraries - 3,850+ LOC"
-        C[colors.sh<br/>298 lines]
-        D[logger.sh<br/>377 lines]
-        E[utils.sh<br/>507 lines]
-        F[preflight.sh<br/>276 lines]
-        G[config.sh<br/>352 lines]
-        H[installer.sh<br/>586 lines]
-        I[security.sh<br/>380 lines]
-        J[reporting.sh<br/>465 lines]
-        K[notifications.sh<br/>420 lines]
-    end
-    
-    subgraph "⚙️ Configuration"
-        L[production.json]
-        M[development.json]
-        N[custom.json]
-    end
-    
-    subgraph "📄 Templates"
-        O[nginx.conf]
-        P[mongod.conf]
-        Q[ecosystem.config.js]
-    end
-    
-    A --> C & D & E & F & G & H & I & J & K
-    A --> L & M & N
-    H --> O & P & Q
-    
-    style A fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
-    style B fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+subgraph " Elite Server Setup"
+A[setup.sh<br/>336 lines]
+B[quick-test.sh<br/>Validation]
+end
+
+subgraph " Core Libraries - 3,850+ LOC"
+C[colors.sh<br/>298 lines]
+D[logger.sh<br/>377 lines]
+E[utils.sh<br/>507 lines]
+F[preflight.sh<br/>276 lines]
+G[config.sh<br/>352 lines]
+H[installer.sh<br/>586 lines]
+I[security.sh<br/>380 lines]
+J[reporting.sh<br/>465 lines]
+K[notifications.sh<br/>420 lines]
+end
+
+subgraph " Configuration"
+L[production.json]
+M[development.json]
+N[custom.json]
+end
+
+subgraph " Templates"
+O[nginx.conf]
+P[mongod.conf]
+Q[ecosystem.config.js]
+end
+
+A --> C & D & E & F & G & H & I & J & K
+A --> L & M & N
+H --> O & P & Q
+
+style A fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+style B fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
 ```
 
 </div>
 
-### 📂 Directory Structure
+### Directory Structure
 
 <details open>
 <summary><b>Click to view complete structure</b></summary>
@@ -1221,92 +1185,92 @@ graph TB
 ```
 elite-server-setup/
 │
-├── 🚀 setup.sh                    # Main entry point (336 lines)
-├── 🧪 quick-test.sh              # Professional validation suite
-├── 📄 LICENSE                     # MIT License
-├── 📖 README.md                   # This documentation
+├── setup.sh # Main entry point (336 lines)
+├── quick-test.sh # Professional validation suite
+├── LICENSE # MIT License
+├── README.md # This documentation
 │
-├── 📚 lib/                        # Core library modules (3,850+ LOC)
-│   ├── 🎨 colors.sh              # Terminal UI & formatting (298 lines)
-│   ├── 📝 logger.sh              # Structured logging system (377 lines)
-│   ├── 🔧 utils.sh               # 50+ utility functions (507 lines)
-│   ├── 🔍 preflight.sh           # Pre-flight system checks (276 lines)
-│   ├── ⚙️ config.sh              # Configuration management (352 lines)
-│   ├── 📦 installer.sh           # Component installers (586 lines)
-│   ├── 🔒 security.sh            # Security hardening (380 lines)
-│   ├── 📊 reporting.sh           # Report generation (465 lines)
-│   └── 🔔 notifications.sh       # Alert system (420 lines)
+├── lib/ # Core library modules (3,850+ LOC)
+│ ├── colors.sh # Terminal UI & formatting (298 lines)
+│ ├── logger.sh # Structured logging system (377 lines)
+│ ├── utils.sh # 50+ utility functions (507 lines)
+│ ├── preflight.sh # Pre-flight system checks (276 lines)
+│ ├── config.sh # Configuration management (352 lines)
+│ ├── installer.sh # Component installers (586 lines)
+│ ├── security.sh # Security hardening (380 lines)
+│ ├── reporting.sh # Report generation (465 lines)
+│ └── notifications.sh # Alert system (420 lines)
 │
-├── ⚙️ config/                     # Configuration profiles
-│   ├── production.json           # Production settings
-│   ├── development.json          # Development settings
-│   └── custom.json               # Custom configuration template
+├── config/ # Configuration profiles
+│ ├── production.json # Production settings
+│ ├── development.json # Development settings
+│ └── custom.json # Custom configuration template
 │
-├── 📄 templates/                  # Service configuration templates
-│   ├── nginx.conf                # Nginx main configuration
-│   ├── site.conf                 # Nginx site template
-│   ├── mongod.conf               # MongoDB configuration
-│   └── ecosystem.config.js       # PM2 configuration
+├── templates/ # Service configuration templates
+│ ├── nginx.conf # Nginx main configuration
+│ ├── site.conf # Nginx site template
+│ ├── mongod.conf # MongoDB configuration
+│ └── ecosystem.config.js # PM2 configuration
 │
-├── 🔧 scripts/                    # Utility scripts
-│   ├── health-check.sh           # System verification (200+ lines)
-│   ├── rollback.sh               # Installation reversal (150+ lines)
-│   └── backup.sh                 # Backup automation
+├── scripts/ # Utility scripts
+│ ├── health-check.sh # System verification (200+ lines)
+│ ├── rollback.sh # Installation reversal (150+ lines)
+│ └── backup.sh # Backup automation
 │
-├── 🧪 tests/                      # Test suite
-│   ├── run-tests.sh              # Automated tests
-│   └── integration/              # Integration tests
+├── tests/ # Test suite
+│ ├── run-tests.sh # Automated tests
+│ └── integration/ # Integration tests
 │
-└── 📁 assets/                     # Media assets
-    ├── hero-dark.png             # Dark mode banner
-    ├── hero-light.png            # Light mode banner
-    └── diagrams/                 # Architecture diagrams
+└── assets/ # Media assets
+├── hero-dark.png # Dark mode banner
+├── hero-light.png # Light mode banner
+└── diagrams/ # Architecture diagrams
 ```
 
 </details>
 
-### 🔄 Installation Flow
+### Installation Flow
 
 <div align="center">
 
 ```mermaid
 stateDiagram-v2
-    [*] --> PreFlight: Start Setup
-    
-    PreFlight --> Validation: System Check
-    Validation --> LoadConfig: ✓ Valid
-    Validation --> Error: ✗ Invalid
-    
-    LoadConfig --> Backup: Load Settings
-    Backup --> InstallNode: Create Snapshot
-    
-    InstallNode --> InstallMongo: Node.js ✓
-    InstallMongo --> InstallNginx: MongoDB ✓
-    InstallNginx --> InstallPM2: Nginx ✓
-    InstallPM2 --> Docker: PM2 ✓
-    
-    Docker --> Security: Skip Docker
-    Docker --> InstallDocker: Install Docker
-    InstallDocker --> Security: Docker ✓
-    
-    Security --> HealthCheck: Apply Hardening
-    HealthCheck --> Report: Verify Services
-    Report --> Notify: Generate Report
-    Notify --> Complete: Send Alerts
-    
-    Complete --> [*]: ✅ Success
-    Error --> [*]: ✗ Failed
+[*] --> PreFlight: Start Setup
+
+PreFlight --> Validation: System Check
+Validation --> LoadConfig: Valid
+Validation --> Error: Invalid
+
+LoadConfig --> Backup: Load Settings
+Backup --> InstallNode: Create Snapshot
+
+InstallNode --> InstallMongo: Node.js 
+InstallMongo --> InstallNginx: MongoDB 
+InstallNginx --> InstallPM2: Nginx 
+InstallPM2 --> Docker: PM2 
+
+Docker --> Security: Skip Docker
+Docker --> InstallDocker: Install Docker
+InstallDocker --> Security: Docker 
+
+Security --> HealthCheck: Apply Hardening
+HealthCheck --> Report: Verify Services
+Report --> Notify: Generate Report
+Notify --> Complete: Send Alerts
+
+Complete --> [*]: Success
+Error --> [*]: Failed
 ```
 
 </div>
 
-### 🎯 Component Architecture
+### Component Architecture
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### **🎨 Presentation Layer**
+#### ** Presentation Layer**
 
 ```
 colors.sh
@@ -1326,7 +1290,7 @@ colors.sh
 </td>
 <td width="50%" valign="top">
 
-#### **📝 Logging Layer**
+#### ** Logging Layer**
 
 ```
 logger.sh
@@ -1348,7 +1312,7 @@ logger.sh
 <tr>
 <td width="50%" valign="top">
 
-#### **🔧 Utility Layer**
+#### ** Utility Layer**
 
 ```
 utils.sh
@@ -1368,7 +1332,7 @@ utils.sh
 </td>
 <td width="50%" valign="top">
 
-#### **⚙️ Configuration Layer**
+#### ** Configuration Layer**
 
 ```
 config.sh
@@ -1391,44 +1355,44 @@ config.sh
 
 ---
 
-## 🔒 Security
+## Security
 
 <div align="center">
 
-### 🛡️ Multi-Layer Security Architecture
+### Multi-Layer Security Architecture
 
 ```mermaid
 graph TB
-    subgraph "🌐 Network Layer"
-        A[UFW Firewall]
-        B[Fail2ban]
-    end
-    
-    subgraph "🔐 Application Layer"
-        C[MongoDB Auth]
-        D[SSH Hardening]
-        E[Nginx Headers]
-    end
-    
-    subgraph "🖥️ System Layer"
-        F[Auto Updates]
-        G[System Limits]
-        H[Audit Logs]
-    end
-    
-    A & B --> C & D & E
-    C & D & E --> F & G & H
-    F & G & H --> I[✅ Secured Server]
-    
-    style I fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+subgraph " Network Layer"
+A[UFW Firewall]
+B[Fail2ban]
+end
+
+subgraph " Application Layer"
+C[MongoDB Auth]
+D[SSH Hardening]
+E[Nginx Headers]
+end
+
+subgraph " System Layer"
+F[Auto Updates]
+G[System Limits]
+H[Audit Logs]
+end
+
+A & B --> C & D & E
+C & D & E --> F & G & H
+F & G & H --> I[ Secured Server]
+
+style I fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
 ```
 
 </div>
 
-### 🔐 Security Hardening Applied
+### Security Hardening Applied
 
 <details open>
-<summary><b>🔥 Network Security</b></summary>
+<summary><b> Network Security</b></summary>
 
 **UFW Firewall Configuration:**
 
@@ -1438,9 +1402,9 @@ ufw default deny incoming
 ufw default allow outgoing
 
 # Allowed ports
-ufw allow 22/tcp    # SSH
-ufw allow 80/tcp    # HTTP
-ufw allow 443/tcp   # HTTPS
+ufw allow 22/tcp # SSH
+ufw allow 80/tcp # HTTP
+ufw allow 443/tcp # HTTPS
 ufw allow 27017/tcp # MongoDB (localhost only)
 
 # Rate limiting
@@ -1460,7 +1424,7 @@ bantime = 3600
 </details>
 
 <details>
-<summary><b>🔑 Authentication & Access</b></summary>
+<summary><b> Authentication & Access</b></summary>
 
 **SSH Hardening:**
 
@@ -1478,20 +1442,20 @@ MaxAuthTries 3
 ```javascript
 // Required authentication
 security:
-  authorization: enabled
+authorization: enabled
 
 // Admin user
 db.createUser({
-  user: "admin",
-  pwd: "[secure-random-password]",
-  roles: ["userAdminAnyDatabase", "readWriteAnyDatabase"]
+user: "admin",
+pwd: "[secure-random-password]",
+roles: ["userAdminAnyDatabase", "readWriteAnyDatabase"]
 })
 ```
 
 </details>
 
 <details>
-<summary><b>🌐 Web Security Headers</b></summary>
+<summary><b> Web Security Headers</b></summary>
 
 **Nginx Security Headers:**
 
@@ -1510,7 +1474,7 @@ add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" alway
 </details>
 
 <details>
-<summary><b>📦 System Security</b></summary>
+<summary><b> System Security</b></summary>
 
 **Automatic Updates:**
 
@@ -1532,61 +1496,51 @@ dpkg-reconfigure -plow unattended-upgrades
 
 </details>
 
-### ✅ Post-Installation Security Checklist
+### Post-Installation Security Checklist
 
 <div align="center">
 
 | Task | Priority | Status |
 |:-----|:--------:|:------:|
-| Change default MongoDB password | 🔴 Critical | ⬜ |
-| Setup SSH key authentication | 🔴 Critical | ⬜ |
-| Configure automatic backups | 🟡 High | ⬜ |
-| Enable monitoring & alerting | 🟡 High | ⬜ |
-| Review firewall rules | 🟢 Medium | ⬜ |
-| Test disaster recovery | 🟢 Medium | ⬜ |
-| Setup SSL certificates | 🔴 Critical | ✅ |
-| Enable audit logging | 🟡 High | ✅ |
+| Change default MongoDB password | Critical | ⬜ |
+| Setup SSH key authentication | Critical | ⬜ |
+| Configure automatic backups | High | ⬜ |
+| Enable monitoring & alerting | High | ⬜ |
+| Review firewall rules | Medium | ⬜ |
+| Test disaster recovery | Medium | ⬜ |
+| Setup SSL certificates | Critical | |
+| Enable audit logging | High | |
 
 </div>
 
 <details>
-<summary><b>📋 View complete security checklist</b></summary>
+<summary><b> View complete security checklist</b></summary>
 
 ```bash
 # Generated at: /var/log/elite-setup/security-checklist.txt
 cat /var/log/elite-setup/security-checklist.txt
 ```
 
-<<<<<<< HEAD
 **Recommended Actions:**
 
-1. Change default MongoDB admin password
-2. Configure SSH key-based authentication
-3. Set up automatic backups
-4. Enable monitoring and alerting
-5. Review firewall rules
+1. Change default MongoDB admin password immediately
+2. Setup SSH keys and disable password authentication
+3. Configure automated backups (daily recommended)
+4. Enable monitoring and alerting (Prometheus, Grafana, or similar)
+5. Review firewall rules for your specific needs
 6. Test disaster recovery procedures
-=======
-**Recommended actions:**
-1. 🔑 **Change MongoDB admin password** immediately
-2. 🔐 **Setup SSH keys** and disable password auth
-3. 💾 **Configure automated backups** (daily recommended)
-4. 📊 **Enable monitoring** (Prometheus, Grafana, or similar)
-5. 🔥 **Review firewall rules** for your specific needs
-6. 🧪 **Test disaster recovery** procedures
-7. 📧 **Setup email alerts** for critical events
-8. 🔒 **Review SSL configuration** and certificate renewal
+7. Setup email alerts for critical events
+8. Review SSL configuration and certificate renewal
 
 </details>
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 <div align="center">
 
-### 💡 Help Us Improve Elite Server Setup!
+### Help Us Improve Elite Server Setup!
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,bash" width="160"/>
 
@@ -1594,13 +1548,13 @@ We welcome contributions from the community!
 
 </div>
 
-### 🚀 Getting Started
+### Getting Started
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### **1️⃣ Fork & Clone**
+#### ** Fork & Clone**
 
 ```bash
 # Fork on GitHub, then clone
@@ -1610,14 +1564,14 @@ YOUR_USERNAME/elite-server-setup.git
 cd elite-server-setup
 ```
 
-#### **2️⃣ Create Branch**
+#### ** Create Branch**
 
 ```bash
 # Create feature branch
 git checkout -b feature/amazing-feature
 ```
 
-#### **3️⃣ Make Changes**
+#### ** Make Changes**
 
 ```bash
 # Edit files
@@ -1630,7 +1584,7 @@ nano lib/installer.sh
 </td>
 <td width="50%" valign="top">
 
-#### **4️⃣ Commit Changes**
+#### ** Commit Changes**
 
 ```bash
 # Stage changes
@@ -1640,7 +1594,7 @@ git add .
 git commit -m "Add: Amazing feature"
 ```
 
-#### **5️⃣ Push & PR**
+#### ** Push & PR**
 
 ```bash
 # Push to your fork
@@ -1649,38 +1603,38 @@ git push origin feature/amazing-feature
 # Open Pull Request on GitHub
 ```
 
-#### **6️⃣ Code Review**
+#### ** Code Review**
 
 - Wait for maintainer review
 - Address feedback
-- Merge when approved! 🎉
+- Merge when approved!
 
 </td>
 </tr>
 </table>
 
-### 📝 Contribution Guidelines
+### Contribution Guidelines
 
 <details open>
 <summary><b>Code Standards</b></summary>
 
-✅ **Follow existing code style**
+**Follow existing code style**
 - Use 4-space indentation
 - Add comments for complex logic
 - Keep functions under 50 lines
 - Use meaningful variable names
 
-✅ **Write tests**
+**Write tests**
 - Add tests for new features
 - Ensure all tests pass
 - Maintain test coverage
 
-✅ **Update documentation**
+**Update documentation**
 - Update README for new features
 - Add inline code comments
 - Include usage examples
 
-✅ **Commit message format**
+**Commit message format**
 ```
 Type: Short description
 
@@ -1697,27 +1651,27 @@ Longer description if needed
 <details>
 <summary><b>What to Contribute</b></summary>
 
-**🐛 Bug Fixes**
+** Bug Fixes**
 - Fix reported issues
 - Improve error handling
 - Edge case coverage
 
-**✨ New Features**
+** New Features**
 - Additional installers
 - New configuration options
 - Enhanced security features
 
-**📖 Documentation**
+** Documentation**
 - Improve README
 - Add tutorials
 - Fix typos
 
-**🧪 Tests**
+** Tests**
 - Add test coverage
 - Integration tests
 - Performance tests
 
-**🎨 UI/UX**
+** UI/UX**
 - Better terminal output
 - Progress indicators
 - Error messages
@@ -1746,7 +1700,7 @@ cd /app && ./setup.sh --profile=development
 
 ---
 
-## 📄 License
+## License
 
 <div align="center">
 
@@ -1782,55 +1736,15 @@ SOFTWARE.
 
 ---
 
-<<<<<<< HEAD
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Credits & Acknowledgments
+## Credits & Acknowledgments
 
 **Created by: [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
-<img src="https://skillicons.dev/icons?i=nodejs,mongodb,nginx,docker,react,express,bash,linux,git,github,vscode" width="400"/>
-
-Special thanks to the open-source community and the amazing tools that make this possible:
-
-- **Node.js Foundation** - JavaScript runtime
-- **MongoDB Inc.** - NoSQL database
-- **Nginx Team** - Web server and reverse proxy
-- **Unitech** - PM2 process manager
-- **Let's Encrypt / Certbot** - Free SSL certificates
-- **Linux Community** - Operating system foundation
-
----
-
-## <img src="https://skillicons.dev/icons?i=github" width="24"/> Changelog
-
-### v1.0.0 (2025-10-12)
-
-**Initial Release** 🎉
-
-- ✅ Full MERN infrastructure automation
-- ✅ Multi-OS support (Ubuntu, Debian, CentOS, RHEL)
-- ✅ Configuration profiles (development/staging/production)
-- ✅ Security hardening suite
-- ✅ Health monitoring & reporting
-- ✅ Multi-channel notifications (Slack, Discord, Email)
-- ✅ Backup & rollback system
-- ✅ Professional validation suite
-- ✅ Comprehensive documentation
-- ✅ Enterprise-grade code quality (3,850+ LOC)
-
----
-
-## <img src="https://skillicons.dev/icons?i=stackoverflow" width="24"/> Support
-=======
-## 🙏 Credits & Acknowledgments
->>>>>>> fb78311b3c5af251093039e5a901a087f3945b9b
-
 <div align="center">
-
-**Created with ❤️ by [naveed-gung](https://github.com/naveed-gung)**
 
 <img src="https://skillicons.dev/icons?i=nodejs,mongodb,nginx,docker,react,express,bash,linux,git,github,vscode" width="440"/>
 
-### 🌟 Built With Amazing Open Source Tools
+### Built With Amazing Open Source Tools
 
 </div>
 
@@ -1865,72 +1779,87 @@ Special thanks to the open-source community and the amazing tools that make this
 </table>
 
 **Special thanks to:**
-- 🚀 **Node.js Foundation** - JavaScript runtime excellence
-- 🍃 **MongoDB Inc.** - Powerful NoSQL database platform
-- 🌐 **Nginx Team** - High-performance web server
-- ⚡ **Unitech** - PM2 process management
-- 🔐 **Let's Encrypt** - Free SSL certificates for everyone
-- 🐧 **Linux Community** - Foundation of open source
-- 🎨 **Skill Icons** - Beautiful technology icons
-- 💡 **Open Source Community** - For making this possible
+- **Node.js Foundation** - JavaScript runtime excellence
+- **MongoDB Inc.** - Powerful NoSQL database platform
+- **Nginx Team** - High-performance web server
+- **Unitech** - PM2 process management
+- **Let's Encrypt / Certbot** - Free SSL certificates for everyone
+- **Linux Community** - Foundation of open source
+- **Skill Icons** - Beautiful technology icons
+- **Open Source Community** - For making this possible
 
 ---
 
-## 📊 Changelog
+## Changelog
+
+### v1.0.0 (2025-10-12)
+
+**Initial Release**
+
+- Full MERN infrastructure automation
+- Multi-OS support (Ubuntu, Debian, CentOS, RHEL)
+- Configuration profiles (development/staging/production)
+- Security hardening suite
+- Health monitoring & reporting
+- Multi-channel notifications (Slack, Discord, Email)
+- Backup & rollback system
+- Professional validation suite
+- Comprehensive documentation
+- Enterprise-grade code quality (3,850+ LOC)
 
 <details>
-<summary><b>v1.0.0 (2025-10-12) - Initial Release 🎉</b></summary>
+<summary><b>Additional Features Detail</b></summary>
 
-### ✨ Features
+### Features
 
 **Core Functionality:**
-- ✅ Full MERN infrastructure automation
-- ✅ Multi-OS support (Ubuntu, Debian, CentOS, RHEL)
-- ✅ Interactive + non-interactive modes
-- ✅ Configuration profiles (dev/staging/prod)
+- Full MERN infrastructure automation
+- Multi-OS support (Ubuntu, Debian, CentOS, RHEL)
+- Interactive + non-interactive modes
+- Configuration profiles (dev/staging/prod)
 
 **Components:**
-- ✅ Node.js 20.x LTS installation
-- ✅ MongoDB 7.0+ with authentication
-- ✅ Nginx with SSL/TLS support
-- ✅ PM2 process manager
-- ✅ Optional Docker installation
+- Node.js 20.x LTS installation
+- MongoDB 7.0+ with authentication
+- Nginx with SSL/TLS support
+- PM2 process manager
+- Optional Docker installation
 
 **Security:**
-- ✅ UFW firewall configuration
-- ✅ Fail2ban brute-force protection
-- ✅ SSH hardening
-- ✅ Automatic security updates
-- ✅ MongoDB authentication
-- ✅ Nginx security headers
+- UFW firewall configuration
+- Fail2ban brute-force protection
+- SSH hardening
+- Automatic security updates
+- MongoDB authentication
+- Nginx security headers
 
 **Operations:**
-- ✅ Health monitoring & reporting
-- ✅ Multi-channel notifications
-- ✅ Backup & rollback system
-- ✅ Professional validation suite
+- Health monitoring & reporting
+- Multi-channel notifications
+- Backup & rollback system
+- Professional validation suite
 
 **Documentation:**
-- ✅ Comprehensive README
-- ✅ Inline code comments
-- ✅ Usage examples
-- ✅ Troubleshooting guide
+- Comprehensive README
+- Inline code comments
+- Usage examples
+- Troubleshooting guide
 
 **Quality:**
-- ✅ 3,850+ lines of code
-- ✅ 85+ validation tests
-- ✅ Enterprise-grade architecture
-- ✅ Production-ready
+- 3,850+ lines of code
+- 85+ validation tests
+- Enterprise-grade architecture
+- Production-ready
 
 </details>
 
 ---
 
-## 💬 Support
+## Support
 
 <div align="center">
 
-### 🆘 Need Help? We're Here!
+### Need Help? We're Here!
 
 <table>
 <tr>
@@ -1977,7 +1906,7 @@ Special thanks to the open-source community and the amazing tools that make this
 </tr>
 </table>
 
-### 🌟 Show Your Support
+### Show Your Support
 
 **If this project helped you, please:**
 
@@ -1997,7 +1926,7 @@ Special thanks to the open-source community and the amazing tools that make this
 
 <div align="center">
 
-## 🚀 Ready to Deploy?
+## Ready to Deploy?
 
 ### Start with one simple command:
 
@@ -2007,7 +1936,7 @@ sudo ./setup.sh
 
 <br>
 
-**Made with ❤️ by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
+**Made with by [naveed-gung](https://github.com/naveed-gung) | Portfolio: [naveed-gung.dev](https://naveed-gung.dev)**
 
 <img src="https://skillicons.dev/icons?i=linux,bash,nodejs,mongodb,nginx,docker,react,express,git,github,vscode" width="440"/>
 
@@ -2015,7 +1944,7 @@ sudo ./setup.sh
 
 ---
 
-### 📈 Project Stats
+### Project Stats
 
 <img src="https://img.shields.io/github/repo-size/naveed-gung/elite-server-setup?style=for-the-badge&logo=github" alt="Repo Size"/>
 <img src="https://img.shields.io/github/languages/top/naveed-gung/elite-server-setup?style=for-the-badge&logo=gnubash" alt="Top Language"/>
@@ -2024,7 +1953,7 @@ sudo ./setup.sh
 
 <br>
 
-**⭐ Star us on GitHub — it motivates us a lot!**
+** Star us on GitHub — it motivates us a lot!**
 
 [⬆ Back to top](#-elite-auto-server-setup)
 
