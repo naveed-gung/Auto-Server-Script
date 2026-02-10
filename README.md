@@ -636,7 +636,7 @@ style G fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
 <tr>
 <td width="50%" valign="top">
 
-#### ** Verify Installation**
+#### 1. Verify Installation
 
 ```bash
 # Run health check
@@ -649,7 +649,7 @@ systemctl status nginx mongodb pm2
 cat /var/log/elite-setup/report.html
 ```
 
-#### ** Upload Your Code**
+#### 2. Upload Your Code
 
 ```bash
 # Via Git (recommended)
@@ -660,7 +660,7 @@ git clone https://github.com/user/app.git
 scp -r my-app/ user@server:/var/www/
 ```
 
-#### ** Install Dependencies**
+#### 3. Install Dependencies
 
 ```bash
 cd /var/www/your-app
@@ -671,7 +671,7 @@ npm run build # If using frontend
 </td>
 <td width="50%" valign="top">
 
-#### ** Configure Environment**
+#### 4. Configure Environment
 
 ```bash
 # Create .env file
@@ -686,7 +686,7 @@ EOF
 cat /root/.mongodb_credentials
 ```
 
-#### ** Start with PM2**
+#### 5. Start with PM2
 
 ```bash
 # Start application
@@ -697,7 +697,7 @@ pm2 save
 pm2 startup
 ```
 
-#### ** Configure Nginx**
+#### 6. Configure Nginx
 
 ```bash
 # Create site configuration
@@ -1270,7 +1270,7 @@ Error --> [*]: Failed
 <tr>
 <td width="50%" valign="top">
 
-#### ** Presentation Layer**
+#### Presentation Layer
 
 ```
 colors.sh
@@ -1290,7 +1290,7 @@ colors.sh
 </td>
 <td width="50%" valign="top">
 
-#### ** Logging Layer**
+#### Logging Layer
 
 ```
 logger.sh
@@ -1312,7 +1312,7 @@ logger.sh
 <tr>
 <td width="50%" valign="top">
 
-#### ** Utility Layer**
+#### Utility Layer
 
 ```
 utils.sh
@@ -1332,7 +1332,7 @@ utils.sh
 </td>
 <td width="50%" valign="top">
 
-#### ** Configuration Layer**
+#### Configuration Layer
 
 ```
 config.sh
@@ -1554,7 +1554,7 @@ We welcome contributions from the community!
 <tr>
 <td width="50%" valign="top">
 
-#### ** Fork & Clone**
+#### 1. Fork & Clone
 
 ```bash
 # Fork on GitHub, then clone
@@ -1564,14 +1564,14 @@ YOUR_USERNAME/elite-server-setup.git
 cd elite-server-setup
 ```
 
-#### ** Create Branch**
+#### 2. Create Branch
 
 ```bash
 # Create feature branch
 git checkout -b feature/amazing-feature
 ```
 
-#### ** Make Changes**
+#### 3. Make Changes
 
 ```bash
 # Edit files
@@ -1584,7 +1584,7 @@ nano lib/installer.sh
 </td>
 <td width="50%" valign="top">
 
-#### ** Commit Changes**
+#### 4. Commit Changes
 
 ```bash
 # Stage changes
@@ -1594,7 +1594,7 @@ git add .
 git commit -m "Add: Amazing feature"
 ```
 
-#### ** Push & PR**
+#### 5. Push & PR
 
 ```bash
 # Push to your fork
@@ -1603,7 +1603,7 @@ git push origin feature/amazing-feature
 # Open Pull Request on GitHub
 ```
 
-#### ** Code Review**
+#### 6. Code Review
 
 - Wait for maintainer review
 - Address feedback
